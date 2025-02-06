@@ -32,30 +32,4 @@ main:
     # notes: Oral Presentation
     image: ./assets/img/FedICU.png
 
- - title: An Inverse Reinforcement Learning-based Approach to ICU Ventilator and Sedative Management
-   authors: <strong>Linxiao Cao</strong>, Haoquan Zhou, Wei Gong, Yifei Zhu, Min Tang, Qunchao Li.
-   conference_short: China Patent
-   conference: China Patent, Granted, ZL202310151557.4
-  # pdf: ./assets/files/Patent1.pdf
-  # code: https://github.com/your-repo/ICU-Management
-  # bibtex: https://bib.yliu.me/Patent1.txt
-  # image: ./assets/img/Patent1.png
-
- - title: A Federated Learning-based Approach to Intelligent Clinical Decision Making in Networked ICUs
-   authors: <strong>Linxiao Cao</strong>, Haoquan Zhou, Wei Gong, Yifei Zhu, Min Tang, Qunchao Li.
-   conference_short: China Patent
-   conference: China Patent, Granted, ZL202310151555.5
-  # pdf: ./assets/files/Patent2.pdf
-  # code: https://github.com/your-repo/ClinicalDecisionMaking
-  # bibtex: https://bib.yliu.me/Patent2.txt
-  # image: ./assets/img/Patent2.png
-
-- title: Building Intelligent Fire Alarm and Escape System
-   authors: Wentao Song, <strong>Linxiao Cao</strong>, Shurui Fang, Yuxi Li.
-   conference_short: China Software Copyright
-   conference: China Software Copyright, Granted, 2020SR0296931
-  # pdf: ./assets/files/Patent3.pdf
-  # code: https://github.com/your-repo/FireAlarmSystem
-  # bibtex: https://bib.yliu.me/Patent3.txt
-  # image: ./assets/img/Patent3.png
 
