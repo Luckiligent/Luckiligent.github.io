@@ -20,7 +20,7 @@ I am currently pursuing a Master's degree at the [University of Science and Tech
 ## How to View
 
 You can view my personal website by visiting:  
-[https://luckiligent.github.io/Luckiligent/](https://luckiligent.github.io/Luckiligent/)
+[https://luckiligent.github.io/Luckiligent/](https://luckiligent.github.io/luckiligent/)
 
 ## Contributing
 
