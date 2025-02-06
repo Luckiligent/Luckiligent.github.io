@@ -25,7 +25,7 @@ Prior to that, I earned my B.Eng. in Internet of Things from [Anhui University (
 
 ## Experience
 
-- **Research Assistant** at University of Georgia, Athens, USA  
+- **Remote Research Assistant** at University of Georgia, Athens, USA  
   *Sep 2024 – Jan 2025*
 
 - **Research Intern** at [iFLYTEK Healthcare](https://www.iflytek.com/health), Hefei, China  
