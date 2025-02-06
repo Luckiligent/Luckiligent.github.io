@@ -102,21 +102,26 @@
 
 
       {% if site.enable_footnote %}
-        <div id="clustrmaps" style="width: 150px; height: 150px;">
-            <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9VQJCS6P3YxI-evkITew4Z8rLWqXYT_Nr9DUsg3bmTk"></script>
-         </div>
-        
-      <p>&copy; Linxiao Cao | Last updated: <span id="last-updated"></span></p>
+<div style="display: flex; flex-direction: column; justify-content: center; align-items: center; height: 100vh;">
+  <!-- ClustrMaps -->
+  <div id="clustrmaps" style="width: 150px; height: 150px;">
+    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9VQJCS6P3YxI-evkITew4Z8rLWqXYT_Nr9DUsg3bmTk"></script>
+  </div>
 
-       <script type="text/javascript">
-         const currentDate = new Date();
-         const formattedDate = currentDate.toLocaleDateString('en-US', {
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric'
-           });
-        document.getElementById('last-updated').textContent = formattedDate;
-       </script>
+  <!-- Copyright and Last updated text -->
+  <p>&copy; Linxiao Cao | Last updated: <span id="last-updated"></span></p>
+
+  <script type="text/javascript">
+    const currentDate = new Date();
+    const formattedDate = currentDate.toLocaleDateString('en-US', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+    document.getElementById('last-updated').textContent = formattedDate;
+  </script>
+</div>
+
 
 
 
