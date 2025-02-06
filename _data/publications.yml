@@ -7,7 +7,7 @@ main:
     pdf: ./assets/files/FERRY.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    image: ./assets/img/teaser_example_2.png
+    image: ./assets/img/FERRY.png
     # notes: Early Accept
 
   - title: "SFPrompt: Communication-Efficient Split Federated Fine-Tuning for Large Pre-Trained Models over Resource-Limited Devices"
@@ -19,4 +19,15 @@ main:
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
     # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     # notes: Oral Presentation
-    image: ./assets/img/teaser_example.png
+    image: ./assets/img/SFPrompt.png
+
+  - title: "Federated Inverse Reinforcement Learning for Smart ICUs with Differential Privacy"
+    authors: Wei Gong, <strong>Linxiao Cao</strong>, Yifei Zhu, Fang Zuo, Xin He, Haoquan Zhou* (*Corresponding authors)
+    conference_short: IoTJ
+    conference: IEEE Internet of Things Journal <strong>(IoTJ)</strong>, 2024.
+    pdf: https://ieeexplore.ieee.org/document/10138664
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # notes: Oral Presentation
+    image: ./assets/img/FedICU.png
