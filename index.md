@@ -17,10 +17,12 @@ Prior to that, I earned my B.Eng. in Internet of Things from [Anhui University (
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Feb. 2025]** Our paper **FERRY** is accepted to CSCWD 2025.
+- **[Jun. 2024]** Excited to share my paper **[SFPrompt](https://arxiv.org/pdf/2407.17533)** on arXiv.
+- **[May. 2023]** Our paper is accepted to *Internet of Things Journal* 2023!
+- **[Oct. 2022]** Our paper in Chinese is accepted to *Computer Science Journal* 2022.
+
+
 
 {% include_relative _includes/publications.md %}
 
