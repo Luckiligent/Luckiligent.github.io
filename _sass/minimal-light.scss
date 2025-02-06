@@ -116,6 +116,7 @@ email {
   line-height:3.6rem;
   position:absolute;
   top:0;
+  
   -webkit-transition:all 0.3s;
   -moz-transition:all 0.3s;
   -o-transition:all 0.3s;
@@ -572,7 +573,7 @@ footer {
 @media print {
   body {
     padding:0.4in;
-    font-size:12pt;
+    font-size:14pt;
     color:#444;
   }
 }
