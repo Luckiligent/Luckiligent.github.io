@@ -25,5 +25,6 @@ Prior to that, I earned my B.Eng. in Internet of Things from [Anhui University (
 
 
 {% include_relative _includes/publications.md %}
+{% include_relative _includes/patents.md %}
 
 {% include_relative _includes/services.md %}
