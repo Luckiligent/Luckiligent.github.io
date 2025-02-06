@@ -10,7 +10,7 @@
   color:#043361!important;
   border-radius:100%;
   text-align:center;
-  font-size:1.15rem;
+  font-size:2.15rem;
   line-height:2.5rem;
   margin-right:1rem}
 
@@ -60,7 +60,7 @@
   border-radius:3.6rem;
   cursor:pointer;
   display:inline-block;
-  font-size:2.0rem;
+  font-size:3.0rem;
   height:3.6rem;
   line-height:3.6rem;
   margin:0 5px;
@@ -104,7 +104,7 @@
   background-color:#000}
 
 email {
-    font-size: 14px;
+    font-size: 24px;
     font-family: "Ubuntu Mono";
 }
 
@@ -267,7 +267,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:28px;
+  font-size:38px;
 }
 
 a {
@@ -573,7 +573,7 @@ footer {
 @media print {
   body {
     padding:0.4in;
-    font-size:24pt;
+    font-size:36pt;
     color:#444;
   }
 }
