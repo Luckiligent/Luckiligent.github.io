@@ -3,7 +3,7 @@ main:
   - title: Federated Reinforcement Learning for Therapeutic Interventions over ICUs with Noisy Labels
     authors: <strong>Linxiao Cao</strong>, Yifei Zhu, Haoquan Zhou, Shilei Tan, Wei Gong*. (*Corresponding authors)
     conference_short: CSCWD
-    conference: International Conference on Computer Supported Cooperative Work in Design <strong>(CSCWD)</strong>, 2025.
+    conference: International Conference on Computer Supported Cooperative Work in Design <strong>(CCF-C)</strong>, 2025.
     pdf: ./assets/files/FERRY.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
@@ -13,7 +13,7 @@ main:
   - title: "SFPrompt: Communication-Efficient Split Federated Fine-Tuning for Large Pre-Trained Models over Resource-Limited Devices"
     authors: <strong>Linxiao Cao</strong>, Yifei Zhu, Wei Gong*. (*Corresponding authors)
     conference_short: Arxiv
-    conference: <strong>(Arxiv)</strong>, 2024.
+    conference: <strong>(Preprint)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2407.17533
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
@@ -24,7 +24,7 @@ main:
   - title: "Federated Inverse Reinforcement Learning for Smart ICUs with Differential Privacy"
     authors: Wei Gong, <strong>Linxiao Cao</strong>, Yifei Zhu, Fang Zuo, Xin He, Haoquan Zhou* (*Corresponding authors)
     conference_short: IoTJ
-    conference: IEEE Internet of Things Journal <strong>(IoTJ)</strong>, 2024.
+    conference: IEEE Internet of Things Journal <strong>(SCI-I)</strong>, 2023.
     pdf: https://ieeexplore.ieee.org/document/10138664
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     # page: https://class-il.mpi-inf.mpg.de/mnemonics/
