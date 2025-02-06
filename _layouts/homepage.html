@@ -40,7 +40,15 @@
       <header>
         
         {% if site.avatar %}
-        <a class="image avatar"><img src="{{ site.avatar }}" alt="avatar" style="width: 100px; height: 100px;"/></a>
+        <a class="image avatar">
+  <img src="{{ site.avatar }}" alt="avatar" class="avatar-img" />
+</a>
+
+<style>
+  .avatar-img {
+    transform: scale(2); /* 放大2倍 */
+  }
+</style>
         {% endif %}
 
         <h1>{{ site.title }}</h1>
