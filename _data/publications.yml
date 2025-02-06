@@ -1,22 +1,22 @@
 main:
 
   - title: Federated Reinforcement Learning for Therapeutic Interventions over ICUs with Noisy Labels
-    authors: Linxiao Cao, Yifei Zhu, Haoquan Zhou, Shilei Tan, Wei Gong*. (*Corresponding authors)
+    authors: <strong>Linxiao Cao</strong>, Yifei Zhu, Haoquan Zhou, Shilei Tan, Wei Gong*. (*Corresponding authors)
     conference_short: CSCWD
     conference: International Conference on Computer Supported Cooperative Work in Design <strong>(CSCWD)</strong>, 2025.
     pdf: ./assets/files/FERRY.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
     image: ./assets/img/teaser_example_2.png
-    notes: Early Accept
+    # notes: Early Accept
 
-  - title: "Mnemonics Training: Multi-Class Incremental Learning without Forgetting"
-    authors: <strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun
-    conference_short: CVPR
-    conference: IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.
-    pdf: https://arxiv.org/pdf/2002.10211.pdf
-    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
-    page: https://class-il.mpi-inf.mpg.de/mnemonics/
-    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Oral Presentation
+  - title: "SFPrompt: Communication-Efficient Split Federated Fine-Tuning for Large Pre-Trained Models over Resource-Limited Devices"
+    authors: <strong>Linxiao Cao</strong>, Yifei Zhu, Wei Gong*. (*Corresponding authors)
+    conference_short: Arxiv
+    conference: <strong>(Arxiv)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2407.17533
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # notes: Oral Presentation
     image: ./assets/img/teaser_example.png
