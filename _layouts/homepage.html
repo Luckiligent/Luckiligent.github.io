@@ -100,15 +100,21 @@
       <br>
 
       {% if site.enable_footnote %}
-        <p>&copy; Linxiao Cao | Last updated: <span id="last-updated"></span></p>
+<p>&copy; Linxiao Cao | Last updated: <span id="last-updated"></span></p>
 
 <script type="text/javascript">
-  // 获取当前年份
-  const currentYear = new Date().getFullYear();
+  // 获取当前的日期和时间
+  const currentDate = new Date();
+  const formattedDate = currentDate.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric'
+  });
 
   // 设置更新时间
-  document.getElementById('last-updated').textContent = currentYear;
+  document.getElementById('last-updated').textContent = formattedDate;
 </script>
+
 
 <!--       <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p> -->
       {% endif %}
@@ -118,6 +124,12 @@
         <p>&copy; Linxiao Cao | Last updated: May 2024</p>
       </footer> -->
     </div>
+    
+  <div id="clustrmaps" style="width: 150px; height: 150px; margin: 0 auto;">
+     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9VQJCS6P3YxI-evkITew4Z8rLWqXYT_Nr9DUsg3bmTk"></script>
+  </div>
+
+    
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
@@ -129,9 +141,7 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
-  <div id="clustrmaps" style="width: 150px; height: 150px; margin: 0 auto;">
-     <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9VQJCS6P3YxI-evkITew4Z8rLWqXYT_Nr9DUsg3bmTk"></script>
-  </div>
+
 
   </body>
 </html>
