@@ -98,9 +98,12 @@
       {{ content }}
 
       <br>
-      <div id="clustrmaps" style="width: 150px; height: 150px; margin: 0 auto;">
-         <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9VQJCS6P3YxI-evkITew4Z8rLWqXYT_Nr9DUsg3bmTk"></script>
-      </div>
+       <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+         <div id="clustrmaps" style="width: 150px; height: 150px;">
+            <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9VQJCS6P3YxI-evkITew4Z8rLWqXYT_Nr9DUsg3bmTk"></script>
+         </div>
+       </div>
+
 
       {% if site.enable_footnote %}
       <p>&copy; Linxiao Cao | Last updated: <span id="last-updated"></span></p>
