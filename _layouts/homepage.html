@@ -121,9 +121,15 @@
     {% endif %}
   </body>
   
-  <div id="clustrmaps-widget" style="width: 15px; height: 15px; margin: 0 auto;">
   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=9VQJCS6P3YxI-evkITew4Z8rLWqXYT_Nr9DUsg3bmTk"></script>
-    </div>
+
+<style>
+  /* 控制嵌入的 ClustrMaps iframe 大小 */
+  iframe.clustrmaps {
+    width: 150px !important;   /* 调整宽度 */
+    height: 150px !important;  /* 调整高度 */
+  }
+</style>
 
 
 
