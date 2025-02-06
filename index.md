@@ -10,19 +10,6 @@ Prior to that, I earned my B.Eng. in Internet of Things from [Anhui University (
 
 ---
 
-## Education
-
-- **[University of Science and Technology of China](https://www.ustc.edu.cn)**, Hefei, China  
-  *Sep 2021 – Jun 2024*  
-  M.S. @ UBIoT Lab  
-  Advisor: Prof. [Wei Gong](http://staff.ustc.edu.cn/~weigong/)
-
-- **[Anhui University](https://www.ahu.edu.cn)**, Hefei, China  
-  *Sep 2017 – Jun 2021*  
-  B.Eng. @ Internet of Things
-
----
-
 ## Experience
 
 - **Remote Research Assistant** at University of Georgia, Athens, USA  
