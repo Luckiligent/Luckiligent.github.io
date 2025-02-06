@@ -33,18 +33,23 @@
     <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
+    
+    <style>
+        body {
+            width: 100%;
+            max-width: 1200px; /* 设置最大宽度 */
+            margin: 0 auto;    /* 使页面水平居中 */
+            padding: 0 20px;   /* 添加一些内边距 */
+            box-sizing: border-box; /* 确保内边距和边框不会影响页面的宽度 */
+        }
+
+        /* 如果有其他样式需要调整，可以继续写在这里 */
+    </style>
 
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <style>
-    .wrapper {
-      max-width: 2400px;  /* 设置最大宽度，可以增加到更大的值 */
-      margin: 0 auto;     /* 使其水平居中 */
-      padding: 0 40px;    /* 增加左右边距，减少边缘空白 */
-    }
-  </style>
         
         {% if site.avatar %}
         <a class="image avatar">
