@@ -9,7 +9,7 @@ I obtained my Master's degree at the [University of Science and Technology of Ch
 ## How to View
 
 You can view my personal website by visiting:  
-[https://luckiligent.github.io/Luckiligent/](https://luckiligent.github.io)
+[https://luckiligent.github.io/](https://luckiligent.github.io)
 
 
 ## License
