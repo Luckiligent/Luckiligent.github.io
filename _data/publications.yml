@@ -7,7 +7,7 @@ main:
     pdf: ./assets/files/FERRY.pdf
     # code: https://github.com/MrGiovanni/ContinualLearning
     # bibtex: https://bib.yliu.me/MICCAI23.txt
-    slides: ./assets/files/FERRY_Slides.pptx
+    slides: ./assets/files/FERRY_Slides.pdf
     image: ./assets/img/FERRY.png
     # notes: Early Accept
 
