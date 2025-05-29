@@ -24,14 +24,14 @@ I'm currently a Ph.D. student at Artificial Intelligence Trust, [HKUST (Guangzho
 
 - **Geometric Machine Learning**
 - **Non-Euclidean Machine Learning**
-- **LLM**
+- **Large Language Model**
 
 ---
 
 ## News
 
 - **[Feb 2025]** Our paper **[FERRY](./assets/files/FERRY.pdf)** is accepted to *CSCWD 2025*.
-- **[Jun 2024]** Excited to share my paper **[SFPrompt](https://arxiv.org/pdf/2407.17533)** on *arXiv*.
+- **[Jun 2024]** Excited to share our paper **[SFPrompt](https://arxiv.org/pdf/2407.17533)** on *arXiv*.
 - **[Mar 2024]** Our two patents are granted!
 - **[May 2023]** Our paper is accepted to [*Internet of Things Journal*](https://ieeexplore.ieee.org/document/10138664/) 2023!
 - **[Oct 2022]** Our paper (in Chinese) is accepted to [*Computer Science Journal*](https://www.jsjkx.com/index.jsp) 2022.
