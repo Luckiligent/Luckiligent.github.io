@@ -4,7 +4,7 @@ Welcome to my personal website hosted on GitHub Pages! This repository contains 
 
 ## About Me
 
-I obtained my Master's degree at the [University of Science and Technology of China (USTC)](http://www.ustc.edu.cn/), where I worked in the [UBIoT Lab](https://ubiot.ustc.edu.cn/). I specialize in Federated Learning, Reinforcement Learning, and Smart Healthcare. My research interests also extend to intelligent systems and IoT applications.
+I'm currently a Ph.D. student at Artificial Intelligence Trust, [HKUST (Guangzhou)](https://www.hkust-gz.edu.cn/). I obtained my Master's degree at the [University of Science and Technology of China (USTC)](http://www.ustc.edu.cn/), where I worked in the [UBIoT Lab](https://ubiot.ustc.edu.cn/). My current research focuses on Geometric Machine Learning and Large Language Models. 
 
 ## How to View
 
