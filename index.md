@@ -5,8 +5,8 @@ layout: homepage
 ## About Me
 
 I'm currently a Ph.D. student at Artificial Intelligence Trust, [HKUST (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by Prof. [Menglin Yang](https://yangmenglinsite.github.io/). I completed my M.S. in the [School of Data Science](https://saids.ustc.edu.cn/) at the [University of Science and Technology of China (USTC)](http://www.ustc.edu.cn/), where my supervisor was Prof. [Wei Gong](http://staff.ustc.edu.cn/~weigong/). Prior to that, I earned my B.Eng. in Internet of Things Engineering from [Anhui University (AHU)](https://www.ahu.edu.cn) in 2021.
-
 **I am always open to potential collaborations. Please feel free to contact me.**
+
 ---
 
 ## Experience
