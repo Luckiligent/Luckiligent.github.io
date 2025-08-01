@@ -1,5 +1,16 @@
 main:
 
+  - title: "Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey"
+    authors: Jindong Li, Yali Fu, Jiahong Liu, <strong>Linxiao Cao</strong>, Wei Ji, Menglin Yang*, Irwin King, Ming-Hsuan Yang. 
+    conference_short: Arxiv
+    conference: <strong>(Preprint)</strong>, 2025.
+    pdf: https://arxiv.org/pdf/2507.22920
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # notes: Oral Presentation
+    image: ./assets/img/Discrete_token.png
+    
   - title: Federated Reinforcement Learning for Therapeutic Interventions over ICUs with Noisy Labels
     authors: <strong>Linxiao Cao</strong>, Yifei Zhu, Haoquan Zhou, Shilei Tan, Wei Gong*.
     conference_short: CSCWD
