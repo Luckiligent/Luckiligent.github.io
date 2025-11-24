@@ -1,4 +1,14 @@
 main:
+  - title: "HyperbolicRAG: Enhancing Retrieval-Augmented Generation with Hyperbolic Representations"
+    authors: <strong>Linxiao Cao</strong>, Ruitao Wang, Jindong Li, Zhipeng Zhou, Menglin Yang*. 
+    conference_short: Arxiv
+    conference: <strong>(Preprint)</strong>, 2025.
+    pdf: ./assets/files/HyperbolicRAG.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # notes: Oral Presentation
+    image: ./assets/img/HyperbolicRAG.png
 
   - title: "Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey"
     authors: Jindong Li, Yali Fu, Jiahong Liu, <strong>Linxiao Cao</strong>, Wei Ji, Menglin Yang*, Irwin King, Ming-Hsuan Yang. 
