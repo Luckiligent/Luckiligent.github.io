@@ -4,8 +4,8 @@
 
 <ul style="margin:0 0 5px;">
   <li><autocolor>AAAI 2026</autocolor></li>
-  <li><autocolor>IEEE International Conference on Multimedia & Expo (ICME) 2024-2025</autocolor></li>
-  <li><autocolor>IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP) 2025</autocolor></li>
+  <li><autocolor>ICASSP 2025, ICME 2025</autocolor></li>
+  <li><autocolor>ICME 2024</autocolor></li>
 </ul>
 
 <h4 style="margin:0 10px 0;">Journal Reviewers</h4>
