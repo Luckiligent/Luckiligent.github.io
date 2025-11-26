@@ -12,4 +12,5 @@
 
 <ul style="margin:0 0 20px;">
   <li><autocolor>IEEE Network</autocolor></li>
+  <li><autocolor>IEEE Internet of Things Journal</autocolor></li>
 </ul>
