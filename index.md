@@ -16,19 +16,19 @@ I'm currently a Ph.D. student at Artificial Intelligence Trust, [HKUST (Guangzho
 
 - **Geometric Machine Learning**
 - **Non-Euclidean Machine Learning**
-- **Large Language Model**
+- **Multi-Task Learning**
 
 ---
 
 ## News
-- **[Feb 2026]** Our paper **[VarGrad](./assets/files/VarGrad.pdf)** is accepted to *CVPR Findings 2026* 🎉🥳.
+- **[Feb 2026]** Our paper **[VarGrad](./assets/files/VarGrad.pdf)** is accepted to *CVPR Findings 2026* 🎉🥳!
 - **[Nov 2025]** Excited to release our paper **[HyperbolicRAG: Enhancing Retrieval-Augmented Generation with Hyperbolic Representations](https://arxiv.org/abs/2511.18808)** on *arXiv*.
 - **[Aug 2025]** Thrilled to share our paper **[Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey](https://arxiv.org/pdf/2507.22920)** on *arXiv*.
-- **[Feb 2025]** Our paper **[FERRY](./assets/files/FERRY.pdf)** is accepted to *CSCWD 2025*.
+- **[Feb 2025]** Our paper **[FERRY](./assets/files/FERRY.pdf)** is accepted to *CSCWD 2025*🎉🎉🎉.
 - **[Jun 2024]** Excited to share our paper **[SFPrompt](https://arxiv.org/pdf/2407.17533)** on *arXiv*.
 - **[Mar 2024]** Our two patents are granted!
-- **[May 2023]** Our paper is accepted to [*Internet of Things Journal*](https://ieeexplore.ieee.org/document/10138664/) 2023!
-- **[Oct 2022]** Our paper (in Chinese) is accepted to [*Computer Science Journal*](https://www.jsjkx.com/index.jsp) 2022.
+- **[May 2023]** Our paper **[FedICU](https://ieeexplore.ieee.org/document/10138664/)** is accepted to *Internet of Things Journal 2023*. 🎉🎉🎉!
+- **[Oct 2022]** One paper is accepted to [*Computer Science Journal*](https://www.jsjkx.com/index.jsp) 2022.
 
 ---
 
