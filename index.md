@@ -10,17 +10,7 @@ I'm currently a Ph.D. student at Artificial Intelligence Trust, [HKUST (Guangzho
 
 ---
 
-## Experience
 
-- **Remote Research Assistant** at University of Georgia, Athens, USA  
-  *Sep 2024 – Jan 2025*
-- **Research Intern** at [iFLYTEK Healthcare](https://www.iflytek.com/health), Hefei, China  
-  *Jun 2019 – Aug 2019*
-- **National College Student Innovation and Entrepreneurship Training Program**,  
-  [Building intelligent fire alarm and escape system](http://gjcxcy.bjtu.edu.cn/ItemDetail.aspx?CEFC30AAAC332004313796613247ED68EDF0DEEFCE422B8EA99BA1D9481B32E3)  
-  *Sep 2019 – Jul 2020*
-
----
 
 ## Research Interests
 
@@ -45,5 +35,20 @@ I'm currently a Ph.D. student at Artificial Intelligence Trust, [HKUST (Guangzho
 {% include_relative _includes/publications.md %}
 {% include_relative _includes/patents.md %}
 {% include_relative _includes/awards.md %}
+
+## Experience
+
+- **Remote Research Assistant** at University of Georgia, Athens, USA  
+  *Sep 2024 – Jan 2025*
+- **Research Intern** at [iFLYTEK Healthcare](https://www.iflytek.com/health), Hefei, China  
+  *Jun 2019 – Aug 2019*
+- **National College Student Innovation and Entrepreneurship Training Program**,  
+  [Building intelligent fire alarm and escape system](http://gjcxcy.bjtu.edu.cn/ItemDetail.aspx?CEFC30AAAC332004313796613247ED68EDF0DEEFCE422B8EA99BA1D9481B32E3)  
+  *Sep 2019 – Jul 2020*
+
+---
+
 {% include_relative _includes/services.md %}
+
+
 
