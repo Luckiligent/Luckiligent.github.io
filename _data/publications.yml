@@ -1,7 +1,7 @@
 main:
 
   - title: "Towards Calibrated Gradient-based Multi-Task Learning"
-    authors: <strong>Linxiao Cao#</strong>, Mianzimei Yang#, Zhipeng Zhou*, Hong Xie, Defu Lian, Menglin Yang*. 
+    authors: <strong>Linxiao Cao*</strong>, Mianzimei Yang*, Zhipeng Zhou#, Hong Xie, Defu Lian, Menglin Yang#. 
     conference_short: Findings of CVPR
     conference: <strong>Findings of The IEEE/CVF Conference on Computer Vision and Pattern Recognition</strong>, 2026.
     pdf: ./assets/files/VarGrad.pdf
@@ -13,7 +13,7 @@ main:
 
     
   - title: "HyperbolicRAG: Enhancing Retrieval-Augmented Generation with Hyperbolic Representations"
-    authors: <strong>Linxiao Cao</strong>, Ruitao Wang, Jindong Li, Zhipeng Zhou, Menglin Yang*. 
+    authors: <strong>Linxiao Cao</strong>, Ruitao Wang, Jindong Li, Zhipeng Zhou, Menglin Yang#. 
     conference_short: Arxiv
     conference: <strong>(Preprint)</strong>, 2025.
     pdf: ./assets/files/HyperbolicRAG.pdf
@@ -24,7 +24,7 @@ main:
     image: ./assets/img/HyperbolicRAG.png
 
   - title: "Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey"
-    authors: Jindong Li, Yali Fu, Jiahong Liu, <strong>Linxiao Cao</strong>, Wei Ji, Menglin Yang*, Irwin King, Ming-Hsuan Yang. 
+    authors: Jindong Li, Yali Fu, Jiahong Liu, <strong>Linxiao Cao</strong>, Wei Ji, Menglin Yang#, Irwin King, Ming-Hsuan Yang. 
     conference_short: Arxiv
     conference: <strong>(Preprint)</strong>, 2025.
     pdf: https://arxiv.org/pdf/2507.22920
@@ -35,7 +35,7 @@ main:
     image: ./assets/img/Discrete_token.png
     
   - title: Federated Reinforcement Learning for Therapeutic Interventions over ICUs with Noisy Labels
-    authors: <strong>Linxiao Cao</strong>, Yifei Zhu, Haoquan Zhou, Shilei Tan, Wei Gong*.
+    authors: <strong>Linxiao Cao</strong>, Yifei Zhu, Haoquan Zhou, Shilei Tan, Wei Gong#.
     conference_short: CSCWD
     conference: International Conference on Computer Supported Cooperative Work in Design <strong>(CCF-C)</strong>, 2025.
     pdf: ./assets/files/FERRY.pdf
@@ -46,7 +46,7 @@ main:
     # notes: Early Accept
 
   - title: "SFPrompt: Communication-Efficient Split Federated Fine-Tuning for Large Pre-Trained Models over Resource-Limited Devices"
-    authors: <strong>Linxiao Cao</strong>, Yifei Zhu, Wei Gong*. 
+    authors: <strong>Linxiao Cao</strong>, Yifei Zhu, Wei Gong#. 
     conference_short: Arxiv
     conference: <strong>(Preprint)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2407.17533
@@ -57,7 +57,7 @@ main:
     image: ./assets/img/SFPrompt.png
 
   - title: "Federated Inverse Reinforcement Learning for Smart ICUs with Differential Privacy"
-    authors: Wei Gong, <strong>Linxiao Cao</strong>, Yifei Zhu, Fang Zuo, Xin He, Haoquan Zhou* 
+    authors: Wei Gong, <strong>Linxiao Cao</strong>, Yifei Zhu, Fang Zuo, Xin He, Haoquan Zhou# 
     conference_short: IoTJ
     conference: IEEE Internet of Things Journal <strong>(SCI-I)</strong>, 2023.
     pdf: https://ieeexplore.ieee.org/document/10138664
