@@ -2,7 +2,7 @@ main:
 
   - title: "Towards Calibrated Gradient-based Multi-Task Learning"
     authors: <strong>Linxiao Cao#</strong>, Mianzimei Yang#, Zhipeng Zhou*, Hong Xie, Defu Lian, Menglin Yang*. 
-    conference_short: CVPR
+    conference_short: Findings of CVPR
     conference: <strong>Findings of The IEEE/CVF Conference on Computer Vision and Pattern Recognition</strong>, 2026.
     pdf: ./assets/files/VarGrad.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
