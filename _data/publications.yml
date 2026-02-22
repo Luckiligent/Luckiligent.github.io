@@ -1,4 +1,17 @@
 main:
+
+  - title: "Towards Calibrated Gradient-based Multi-Task Learning"
+    authors: <strong>Linxiao Cao#</strong>, Mianzimei Yang#, Zhipeng Zhou*, Hong Xie, Defu Lian, Menglin Yang*. 
+    conference_short: Findings of CVPR 2026
+    conference: <strong>Findings of The IEEE/CVF Conference on Computer Vision and Pattern Recognition</strong>, 2026.
+    pdf: ./assets/files/VarGrad.pdf
+    # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    # page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    # notes: Oral Presentation
+    image: ./assets/img/VarGrad.png
+
+    
   - title: "HyperbolicRAG: Enhancing Retrieval-Augmented Generation with Hyperbolic Representations"
     authors: <strong>Linxiao Cao</strong>, Ruitao Wang, Jindong Li, Zhipeng Zhou, Menglin Yang*. 
     conference_short: Arxiv
