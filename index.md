@@ -42,6 +42,8 @@ I'm currently a Ph.D. student at Artificial Intelligence Trust, [HKUST (Guangzho
 
 {% include_relative _includes/awards.md %}
 
+---
+
 ## Experience
 
 - **Remote Research Assistant** at University of Georgia, Athens, USA  
