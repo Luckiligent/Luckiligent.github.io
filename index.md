@@ -33,7 +33,13 @@ I'm currently a Ph.D. student at Artificial Intelligence Trust, [HKUST (Guangzho
 ---
 
 {% include_relative _includes/publications.md %}
+
+---
+
 {% include_relative _includes/patents.md %}
+
+---
+
 {% include_relative _includes/awards.md %}
 
 ## Experience
