@@ -21,6 +21,7 @@ I'm currently a Ph.D. student at Artificial Intelligence Trust, [HKUST (Guangzho
 ---
 
 ## News
+- **[Apr 2026]** Excited to share our paper **[APT](https://arxiv.org/abs/2604.08939)** on *arXiv*.
 - **[Mar 2026]** Our paper **[Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey](https://arxiv.org/pdf/2507.22920)** is accepted to *TPAMI* 🎉!
 - **[Feb 2026]** Our paper **[VarGrad](./assets/files/VarGrad.pdf)** is accepted to *CVPR Findings 2026* 🎉🥳!
 - **[Nov 2025]** Excited to release our paper **[HyperbolicRAG: Enhancing Retrieval-Augmented Generation with Hyperbolic Representations](https://arxiv.org/abs/2511.18808)** on *arXiv*.
