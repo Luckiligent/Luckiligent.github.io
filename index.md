@@ -23,7 +23,7 @@ I'm currently a Ph.D. student at Artificial Intelligence Thrust, [HKUST (Guangzh
 ## News
 - **[Apr 2026]** Excited to share our paper **[APT: Delve into the Applicability of Advanced Optimizers for Multi-Task Learning](https://arxiv.org/abs/2604.08939)** on *arXiv*.
 - **[Mar 2026]** Our paper **[Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey](https://arxiv.org/pdf/2507.22920)** is accepted to *TPAMI* 🎉!
-- **[Feb 2026]** Our paper **[VarGrad](./assets/files/VarGrad.pdf)** is accepted to *CVPR Findings 2026* 🎉🥳!
+- **[Feb 2026]** Our paper **[VarGrad](https://openaccess.thecvf.com/content/CVPR2026F/papers/Cao_Towards_Calibrated_Gradient-based_Multi-Task_Learning_CVPRF_2026_paper.pdf)** is accepted to *CVPR Findings 2026* 🎉🥳!
 - **[Nov 2025]** Excited to release our paper **[HyperbolicRAG: Enhancing Retrieval-Augmented Generation with Hyperbolic Representations](https://arxiv.org/abs/2511.18808)** on *arXiv*.
 - **[Feb 2025]** Our paper **[FERRY](./assets/files/FERRY.pdf)** is accepted to *CSCWD 2025*🎉.
 - **[Jun 2024]** Excited to share our paper **[SFPrompt](https://arxiv.org/pdf/2407.17533)** on *arXiv*.
