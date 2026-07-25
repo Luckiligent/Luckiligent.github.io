@@ -10,8 +10,6 @@ I'm currently a Ph.D. student at Artificial Intelligence Thrust, [HKUST (Guangzh
 
 ---
 
-
-
 ## Research Interests
 
 - **Geometric Machine Learning**
@@ -33,10 +31,6 @@ I'm currently a Ph.D. student at Artificial Intelligence Thrust, [HKUST (Guangzh
 
 ---
 
-{% include_relative _includes/publications.md %}
-
----
-
 {% include_relative _includes/patents.md %}
 
 ---
@@ -53,11 +47,8 @@ I'm currently a Ph.D. student at Artificial Intelligence Thrust, [HKUST (Guangzh
   *Jun 2019 – Aug 2019*
 - **National College Student Innovation and Entrepreneurship Training Program**,  
   [Building intelligent fire alarm and escape system](http://gjcxcy.bjtu.edu.cn/ItemDetail.aspx?CEFC30AAAC332004313796613247ED68EDF0DEEFCE422B8EA99BA1D9481B32E3)  
-  *Sep 2019 – Jul 2020*
+  *Sep 2019 – Dec 2020*
 
 ---
 
 {% include_relative _includes/services.md %}
-
-
-
