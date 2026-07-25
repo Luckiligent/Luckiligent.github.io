@@ -4,9 +4,9 @@ layout: homepage
 
 ## About Me
 
-I'm currently a Ph.D. student at Artificial Intelligence Thrust, [HKUST (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by Prof. [Menglin Yang](https://yangmenglinsite.github.io/). I completed my M.S. in the [School of Data Science](https://saids.ustc.edu.cn/) at the [University of Science and Technology of China (USTC)](http://www.ustc.edu.cn/), where my supervisor was Prof. [Wei Gong](http://staff.ustc.edu.cn/~weigong/).
+I'm a Ph.D. student in the Artificial Intelligence Thrust at [HKUST (Guangzhou)](https://www.hkust-gz.edu.cn/), supervised by Prof. [Menglin Yang](https://yangmenglinsite.github.io/). I received my M.S. from the [School of Data Science](https://saids.ustc.edu.cn/) at the [University of Science and Technology of China (USTC)](http://www.ustc.edu.cn/), where I was advised by Prof. [Wei Gong](http://staff.ustc.edu.cn/~weigong/).
 
-**I am always open to potential collaborations. Please feel free to contact me.**
+**I welcome opportunities for collaboration—please feel free to reach out.**
 
 ---
 
@@ -14,22 +14,21 @@ I'm currently a Ph.D. student at Artificial Intelligence Thrust, [HKUST (Guangzh
 
 ## Research Interests
 
-- **Geometric Machine Learning**
 - **Non-Euclidean Machine Learning**
 - **Multi-Task Learning**
 
 ---
 
 ## News
-- **[Apr 2026]** Excited to share our paper **[APT: Delve into the Applicability of Advanced Optimizers for Multi-Task Learning](https://arxiv.org/abs/2604.08939)** on *arXiv*.
-- **[Mar 2026]** Our paper **[Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey](https://arxiv.org/pdf/2507.22920)** is accepted to *TPAMI* 🎉!
-- **[Feb 2026]** Our paper **[VarGrad](https://openaccess.thecvf.com/content/CVPR2026F/papers/Cao_Towards_Calibrated_Gradient-based_Multi-Task_Learning_CVPRF_2026_paper.pdf)** is accepted to *CVPR Findings 2026* 🎉🥳!
-- **[Nov 2025]** Excited to release our paper **[HyperbolicRAG: Enhancing Retrieval-Augmented Generation with Hyperbolic Representations](https://arxiv.org/abs/2511.18808)** on *arXiv*.
-- **[Feb 2025]** Our paper **[FERRY](./assets/files/FERRY.pdf)** is accepted to *CSCWD 2025*🎉.
-- **[Jun 2024]** Excited to share our paper **[SFPrompt](https://arxiv.org/pdf/2407.17533)** on *arXiv*.
-- **[Mar 2024]** Our two patents are granted!
-- **[May 2023]** Our paper **[FedICU](https://ieeexplore.ieee.org/document/10138664/)** is accepted to *Internet of Things Journal 2023* 🎉!
-- **[Oct 2022]** One paper is accepted to [*Computer Science Journal*](https://www.jsjkx.com/index.jsp) 2022.
+- **[Apr 2026]** Happy to share our new preprint **[APT: Delve into the Applicability of Advanced Optimizers for Multi-Task Learning](https://arxiv.org/abs/2604.08939)** on *arXiv*.
+- **[Mar 2026]** Delighted that **[Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey](https://arxiv.org/pdf/2507.22920)** was accepted to *TPAMI* 🎉!
+- **[Feb 2026]** Grateful that **[VarGrad](https://openaccess.thecvf.com/content/CVPR2026F/papers/Cao_Towards_Calibrated_Gradient-based_Multi-Task_Learning_CVPRF_2026_paper.pdf)** was accepted to *CVPR Findings 2026* 🎉🥳!
+- **[Nov 2025]** A new preprint is out: **[HyperbolicRAG: Enhancing Retrieval-Augmented Generation with Hyperbolic Representations](https://arxiv.org/abs/2511.18808)** — now on *arXiv*.
+- **[Feb 2025]** Glad to share that **[FERRY](./assets/files/FERRY.pdf)** was accepted to *CSCWD 2025* 🎉.
+- **[Jun 2024]** Our paper **[SFPrompt](https://arxiv.org/pdf/2407.17533)** is now up on *arXiv* — feedback is warmly welcome.
+- **[Mar 2024]** Happy to note that two of our patents have been granted!
+- **[May 2023]** Honored that **[FedICU](https://ieeexplore.ieee.org/document/10138664/)** was accepted to *Internet of Things Journal 2023* 🎉!
+- **[Oct 2022]** One paper was accepted to [*Computer Science Journal*](https://www.jsjkx.com/index.jsp) 2022.
 
 ---
 
@@ -47,17 +46,13 @@ I'm currently a Ph.D. student at Artificial Intelligence Thrust, [HKUST (Guangzh
 
 ## Experience
 
-- **Remote Research Assistant** at University of Georgia, Athens, USA  
+- **Remote Research Assistant**, University of Georgia, Athens, USA  
   *Sep 2024 – Jan 2025*
-- **Research Intern** at [iFLYTEK Healthcare](https://www.iflytek.com/health), Hefei, China  
+- **Research Intern**, [iFLYTEK Healthcare](https://www.iflytek.com/health), Hefei, China  
   *Jun 2019 – Aug 2019*
-- **National College Student Innovation and Entrepreneurship Training Program**,  
-  [Building intelligent fire alarm and escape system](http://gjcxcy.bjtu.edu.cn/ItemDetail.aspx?CEFC30AAAC332004313796613247ED68EDF0DEEFCE422B8EA99BA1D9481B32E3)  
-  *Sep 2019 – Jul 2020*
+- **National College Student Innovation and Entrepreneurship Training Program** — [Building an Intelligent Fire Alarm and Escape System](http://gjcxcy.bjtu.edu.cn/ItemDetail.aspx?CEFC30AAAC332004313796613247ED68EDF0DEEFCE422B8EA99BA1D9481B32E3)  
+  *Sep 2019 – Dec 2020*
 
 ---
 
 {% include_relative _includes/services.md %}
-
-
-
