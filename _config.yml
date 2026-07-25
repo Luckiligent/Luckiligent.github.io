@@ -33,8 +33,8 @@ enable_footnote: true
 # auto_dark_mode: true
 
 # Font
-# Geometric redesign uses Space Grotesk + Source Serif 4 + IBM Plex Sans (loaded in layout).
-font: "Serif"
+# You can use this option to choose between Serif or Sans Serif fonts.
+font: "Serif" # or "Sans Serif"
 
 # Google Analytics ID
 # Please remove this if you don't use Google Analytics
