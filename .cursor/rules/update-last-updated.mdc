@@ -1,0 +1,14 @@
+---
+description: Keep homepage footer last-updated date in sync with content changes
+alwaysApply: true
+---
+
+# Homepage last-updated date
+
+Whenever you change site content or layout (e.g. `index.md`, `_includes/*`, `_layouts/homepage.html`, `_data/*`, `_config.yml`), also update the footer date in `_layouts/homepage.html`:
+
+```html
+&copy; Linxiao Cao | Last updated: Mon D, YYYY
+```
+
+Use the actual change date (e.g. `Aug 6, 2026`). Do this in the same edit/commit as the content change.
