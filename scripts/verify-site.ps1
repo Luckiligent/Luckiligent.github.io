@@ -88,7 +88,7 @@ $RequiredMarkers = @(
   @{ RelativePath = "index.html"; Marker = "https://scholar.google.com.hk/citations?user=bFhDN14AAAAJ&hl=zh-CN" }
   @{ RelativePath = "index.html"; Marker = "assets/files/Linxiao_Cao_Resume.pdf" }
   @{ RelativePath = "index.html"; Marker = "https://github.com/Luckiligent" }
-  @{ RelativePath = "index.html"; Marker = "./assets/img/clx.png" }
+  @{ RelativePath = "index.html"; Marker = "assets/img/clx.png" }
   @{ RelativePath = "publications/index.html"; Marker = "Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey" }
   @{ RelativePath = "publications/index.html"; Marker = "https://arxiv.org/pdf/2507.22920" }
   @{ RelativePath = "publications/index.html"; Marker = "./assets/img/Discrete_token.png" }
