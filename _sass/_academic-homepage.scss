@@ -177,7 +177,6 @@ body {
   gap: 18px;
   align-items: center;
   padding: 18px 0;
-  border-bottom: 1px solid #e7ebee;
 }
 
 .page-main .abbr {
@@ -210,15 +209,16 @@ body {
 }
 
 .page-main .title {
-  font-size: 1.08rem;
+  font-size: inherit;
   font-weight: 650;
-  line-height: 1.35;
+  line-height: inherit;
 }
 
 .page-main .author,
 .page-main .periodical {
   margin-top: 5px;
-  font-size: 0.88rem;
+  font-size: inherit;
+  line-height: inherit;
   color: #657380;
 }
 

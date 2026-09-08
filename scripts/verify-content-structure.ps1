@@ -33,12 +33,14 @@ Assert-NotMatches $PublicationsInclude '<h2\b[^>]*>\s*Publications\s*</h2>' "The
 Assert-OnlyFrontMatterSeparators $IndexPage
 Assert-OnlyFrontMatterSeparators $ExperiencePage
 Assert-NotMatches $Stylesheet '(?s)\.page-main h2\s*\{[^}]*border-bottom' "Section headings must not draw divider lines."
-Assert-Matches $Stylesheet '(?s)\.page-main \.title\s*\{[^}]*font-size\s*:\s*1\.08rem' "Publication titles must have an explicit primary text size."
 Assert-Matches $Stylesheet '(?s)\.site-shell\s*\{[^}]*grid-template-columns\s*:\s*300px' "The profile column must be widened."
 Assert-Matches $Stylesheet '(?s)\.profile-avatar\s*\{[^}]*width\s*:\s*152px' "The profile avatar must use the restored size."
 Assert-Matches $Stylesheet '(?s)\.page-main h3\s*\{[^}]*font-size\s*:\s*1rem' "Service groups must have a consistent tertiary heading style."
 Assert-NotMatches $PatentsInclude '<autocolor>|style=' "Patents must not retain legacy inline styling."
 Assert-NotMatches $AwardsInclude '<autocolor>|style=' "Awards must not retain legacy inline styling."
 Assert-NotMatches $ServicesInclude '<autocolor>|style=' "Services must not retain legacy inline styling."
+Assert-NotMatches $Stylesheet '(?s)\.page-main \.pub-row\s*\{[^}]*border-bottom' "Publication rows must not draw divider lines."
+Assert-Matches $Stylesheet '(?s)\.page-main \.title\s*\{[^}]*font-size\s*:\s*inherit' "Publication titles must inherit the body text size."
+Assert-Matches $Stylesheet '(?s)\.page-main \.author\s*,\s*\.page-main \.periodical\s*\{[^}]*font-size\s*:\s*inherit' "Publication authors and venues must inherit the body text size."
 
 Write-Output "Content structure checks passed."
