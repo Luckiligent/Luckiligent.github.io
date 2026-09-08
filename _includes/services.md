@@ -3,7 +3,8 @@
 <h3>Teaching Assistant</h3>
 
 <ul class="service-list">
-  <li>Introduction to Artificial Intelligence @2025 Fall, HKUST (Guangzhou)</li>
+  <li>Natural Language Processing @2026 Fall, HKUST (GZ)</li>
+  <li>Introduction to Artificial Intelligence @2025 Fall, HKUST (GZ)</li>
 </ul>
 
 <h3>Conference Reviewers</h3>
