@@ -39,3 +39,29 @@ The script uses `-LiteralPath` for filesystem checks and `-SimpleMatch` for requ
 ## Concerns
 
 The repository has not yet created the redesigned generated pages, so the verifier is intentionally red when run against `_site`. A later page-creation task must run `bundle exec jekyll build` and then rerun this verifier against the real build output.
+
+## Fix Round 1
+
+### Review Findings Addressed
+
+- Replaced one-off assertions with `$RequiredMarkers`, a canonical literal marker list that maps each preservation requirement to its expected generated route.
+- Added homepage requirements for About Me, Research Interests, News, Selected Publications, navigation, and all configured contact/social destinations (email mailto, Scholar, CV, and GitHub).
+- Reject dedicated page headings for Publications, Achievements, Experience & Service, and Life. Dedicated achievement, experience/service, and Life markers are also rejected from the homepage, while publication titles remain valid in the intentional Selected Publications preview.
+- Added a generated desktop stylesheet assertion requiring `.profile-email` to contain `white-space: nowrap`.
+- Expanded the temporary GREEN fixture to include all six publications, all patents and awards, all experiences and services, every configured contact/social destination, the full compact homepage marker set, and the compiled `.profile-email` rule.
+
+### Fix Verification
+
+| Command | Result |
+| --- | --- |
+| `pwsh -File scripts/verify-site.ps1 -SiteDirectory scripts/.verify-site-fixture` with a homepage `<h2>Achievements</h2>` mutation | Expected failure, exit 1: `Homepage must not include the dedicated page heading: Achievements`. |
+| `pwsh -File scripts/verify-site.ps1 -SiteDirectory scripts/.verify-site-fixture` after removing the mutation | Passed, exit 0. |
+| `git diff --check` | Passed, exit 0. |
+
+### Fix Self-Review
+
+`Assert-Matches` reads the stylesheet as a single string before applying the CSS regex, so selector and declaration formatting across separate lines is correctly accepted. All preservation checks are literal and route-specific. The homepage exclusions derive from the same canonical list, preventing the route and scope inventories from drifting apart.
+
+### Fix Concerns
+
+The real generated `_site` remains unavailable until the later implementation tasks build the redesigned pages. The verifier's full GREEN evidence therefore uses a temporary output fixture; it must be rerun against a real `bundle exec jekyll build` result during integration.
