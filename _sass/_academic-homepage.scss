@@ -5,15 +5,15 @@ body {
 
 .site-shell {
   display: grid;
-  grid-template-columns: 268px minmax(0, 760px);
-  gap: 64px;
-  max-width: 1120px;
+  grid-template-columns: 300px minmax(0, 760px);
+  gap: 72px;
+  max-width: 1196px;
   margin: 0 auto;
   padding: 56px 32px 72px;
 }
 
 .profile-sidebar {
-  min-width: 268px;
+  min-width: 300px;
   align-self: start;
   position: sticky;
   top: 32px;
@@ -23,8 +23,8 @@ body {
 }
 
 .profile-avatar {
-  width: 118px;
-  height: 118px;
+  width: 152px;
+  height: 152px;
   object-fit: cover;
   border-radius: 50%;
   display: block;
@@ -98,13 +98,28 @@ body {
   padding-top: 1px;
 }
 
-.page-title,
+.page-title {
+  color: #1d2b38;
+  margin: 0 0 30px;
+  font-size: 1.25rem;
+  font-weight: 650;
+}
+
 .page-main h2 {
   color: #1d2b38;
-  border-bottom: 1px solid #dfe5ea;
-  padding-bottom: 10px;
-  margin: 0 0 20px;
+  margin: 34px 0 12px;
   font-size: 1.25rem;
+  font-weight: 650;
+}
+
+.page-main > h2:first-child {
+  margin-top: 0;
+}
+
+.page-main h3 {
+  margin: 26px 0 6px;
+  color: #34485a;
+  font-size: 1rem;
   font-weight: 650;
 }
 
@@ -121,12 +136,16 @@ body {
 }
 
 .page-main hr {
-  margin: 30px 0;
-  background: #dfe5ea;
+  display: none;
 }
 
 .page-main ul {
   padding-left: 22px;
+}
+
+.page-main .achievement-list,
+.page-main .service-list {
+  margin: 0 0 18px;
 }
 
 .page-main > ul + hr {
@@ -191,6 +210,7 @@ body {
 }
 
 .page-main .title {
+  font-size: 1.08rem;
   font-weight: 650;
   line-height: 1.35;
 }

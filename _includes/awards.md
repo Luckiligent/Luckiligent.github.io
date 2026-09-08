@@ -1,6 +1,6 @@
 ## Awards
-<ul style="margin:0 0 5px;">
-  <li><autocolor>USTC Outstanding Graduate 2024</autocolor></li>
-  <li><autocolor>Anhui Province Outstanding Graduate 2021</autocolor></li>
-  <li><autocolor>AHU Outstanding Graduate 2021</autocolor></li>
+<ul class="achievement-list">
+  <li>USTC Outstanding Graduate 2024</li>
+  <li>Anhui Province Outstanding Graduate 2021</li>
+  <li>AHU Outstanding Graduate 2021</li>
 </ul>

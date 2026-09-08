@@ -13,6 +13,4 @@ permalink: /experience-service/
 - **National College Student Innovation and Entrepreneurship Training Program** — [Building an Intelligent Fire Alarm and Escape System](http://gjcxcy.bjtu.edu.cn/ItemDetail.aspx?CEFC30AAAC332004313796613247ED68EDF0DEEFCE422B8EA99BA1D9481B32E3)<br>
   *Sep 2019 – Dec 2020*
 
----
-
 {% include_relative _includes/services.md %}

@@ -8,16 +8,10 @@ I'm a Ph.D. student in the Artificial Intelligence Thrust at [HKUST (Guangzhou)]
 
 **I welcome opportunities for collaboration—please feel free to reach out.**
 
----
-
-
-
 ## Research Interests
 
 - **Non-Euclidean Machine Learning**
 - **Multi-Task Learning**
-
----
 
 ## News
 - **[Apr 2026]** Happy to share our new preprint **[APT: Delve into the Applicability of Advanced Optimizers for Multi-Task Learning](https://arxiv.org/abs/2604.08939)** on *arXiv*.
@@ -29,7 +23,5 @@ I'm a Ph.D. student in the Artificial Intelligence Thrust at [HKUST (Guangzhou)]
 - **[Mar 2024]** Happy to note that two of our patents have been granted!
 - **[May 2023]** Honored that **[FedICU](https://ieeexplore.ieee.org/document/10138664/)** was accepted to *Internet of Things Journal 2023* 🎉!
 - **[Oct 2022]** One paper was accepted to [*Computer Science Journal*](https://www.jsjkx.com/index.jsp) 2022.
-
----
 
 {% include_relative _includes/publications-preview.html %}
