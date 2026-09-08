@@ -65,3 +65,29 @@ The repository has not yet created the redesigned generated pages, so the verifi
 ### Fix Concerns
 
 The real generated `_site` remains unavailable until the later implementation tasks build the redesigned pages. The verifier's full GREEN evidence therefore uses a temporary output fixture; it must be rerun against a real `bundle exec jekyll build` result during integration.
+
+## Fix Round 2
+
+### Review Findings Addressed
+
+- Replaced the homepage heading deny-list with `Assert-AllowedHomeHeadings`. It inspects headings within `.page-main`, requires About Me, Research Interests, News, and Selected Publications, and rejects every other content heading. Profile/sidebar identity headings are outside that content container.
+- Added a homepage email-element assertion: the exact configured address must appear as a `mailto:` anchor with the `profile-email` class. The existing generated stylesheet assertion continues to require `.profile-email { white-space: nowrap; }`.
+- Expanded `$RequiredMarkers` with the complete About biography facts, exact collaboration invitation, every dated news item and its distinctive text, configured avatar path, and every publication title, PDF URL, image path, and FERRY slides URL.
+
+### Fix Verification
+
+| Command | Result |
+| --- | --- |
+| Legacy verifier against a fixture with an unsupported `Unrelated Section` content heading and unclassified email link | Passed, exit 0, demonstrating the previous coverage gap. |
+| Updated verifier against a fixture missing the biography | Expected failure, exit 1: missing `I'm a Ph.D. student in the Artificial Intelligence Thrust at`. |
+| Updated verifier against a complete fixture with `<h2>Unrelated Section</h2>` | Expected failure, exit 1: `Homepage contains unsupported content heading: 'Unrelated Section'`. |
+| Updated verifier against a complete fixture whose email anchor lacks `profile-email` | Expected failure, exit 1: missing `.profile-email` email element. |
+| Updated verifier against the restored complete fixture | Passed, exit 0. |
+
+### Fix Self-Review
+
+The allowed-heading check operates on semantic content (`main.page-main`) and strips nested heading markup before comparing exact headings. It both requires each permitted section and rejects additions. Resource preservation markers remain literal and route-specific, so a removed PDF, image, or supporting resource fails the generated-output contract.
+
+### Fix Concerns
+
+The final verifier contract depends on the planned `main.page-main` layout container and `profile-email` class. Those are established Task 3 layout contracts. A real Jekyll build must still validate the compiled site once the later page and layout tasks land.
