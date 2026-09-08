@@ -118,7 +118,8 @@ $RequiredMarkers = @(
   @{ RelativePath = "experience-service/index.html"; Marker = "Research Intern" }
   @{ RelativePath = "experience-service/index.html"; Marker = "National College Student Innovation and Entrepreneurship Training Program" }
   @{ RelativePath = "experience-service/index.html"; Marker = "Teaching Assistant" }
-  @{ RelativePath = "experience-service/index.html"; Marker = "Introduction to Artificial Intelligence @2025 Fall, HKUST (Guangzhou)" }
+  @{ RelativePath = "experience-service/index.html"; Marker = "Natural Language Processing @2026 Fall, HKUST (GZ)" }
+  @{ RelativePath = "experience-service/index.html"; Marker = "Introduction to Artificial Intelligence @2025 Fall, HKUST (GZ)" }
   @{ RelativePath = "experience-service/index.html"; Marker = "Conference Reviewers" }
   @{ RelativePath = "experience-service/index.html"; Marker = "AAAI 2027" }
   @{ RelativePath = "experience-service/index.html"; Marker = "AAAI 2026, ICML 2026" }
