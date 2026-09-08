@@ -40,6 +40,7 @@ Assert-NotMatches $PatentsInclude '<autocolor>|style=' "Patents must not retain 
 Assert-NotMatches $AwardsInclude '<autocolor>|style=' "Awards must not retain legacy inline styling."
 Assert-NotMatches $ServicesInclude '<autocolor>|style=' "Services must not retain legacy inline styling."
 Assert-NotMatches $Stylesheet '(?s)\.page-main \.pub-row\s*\{[^}]*border-bottom' "Publication rows must not draw divider lines."
+Assert-Matches $Stylesheet '(?s)\.page-main \.pub-row\s*\{[^}]*align-items\s*:\s*start' "Publication artwork and text must align at their top edges."
 Assert-Matches $Stylesheet '(?s)\.page-main \.title\s*\{[^}]*font-size\s*:\s*inherit' "Publication titles must inherit the body text size."
 Assert-Matches $Stylesheet '(?s)\.page-main \.author\s*,\s*\.page-main \.periodical\s*\{[^}]*font-size\s*:\s*inherit' "Publication authors and venues must inherit the body text size."
 

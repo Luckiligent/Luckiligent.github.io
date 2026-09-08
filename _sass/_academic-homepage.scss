@@ -175,7 +175,7 @@ body {
   display: grid;
   grid-template-columns: 150px minmax(0, 1fr);
   gap: 18px;
-  align-items: center;
+  align-items: start;
   padding: 18px 0;
 }
 
