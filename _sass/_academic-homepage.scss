@@ -23,17 +23,17 @@ body {
 }
 
 .profile-avatar {
-  width: 152px;
-  height: 152px;
+  width: 150px;
+  height: 120px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 50% / 42%;
   display: block;
   margin: 0 0 20px;
 }
 
 .profile-name {
   margin: 0;
-  font-size: 1.65rem;
+  font-size: 1.15rem;
   line-height: 1.15;
   color: #1e2b38;
 }
@@ -253,7 +253,7 @@ body {
   color: #798591;
   font-size: 0.78rem;
   line-height: 1.45;
-  text-align: left;
+  text-align: center;
 }
 
 .life-grid {
@@ -354,8 +354,8 @@ body {
   }
 
   .profile-avatar {
-    width: 88px;
-    height: 88px;
+    width: 110px;
+    height: 86px;
   }
 
   .site-nav {

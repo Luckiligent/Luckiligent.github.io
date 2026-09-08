@@ -34,7 +34,9 @@ Assert-OnlyFrontMatterSeparators $IndexPage
 Assert-OnlyFrontMatterSeparators $ExperiencePage
 Assert-NotMatches $Stylesheet '(?s)\.page-main h2\s*\{[^}]*border-bottom' "Section headings must not draw divider lines."
 Assert-Matches $Stylesheet '(?s)\.site-shell\s*\{[^}]*grid-template-columns\s*:\s*300px' "The profile column must be widened."
-Assert-Matches $Stylesheet '(?s)\.profile-avatar\s*\{[^}]*width\s*:\s*152px' "The profile avatar must use the restored size."
+Assert-Matches $Stylesheet '(?s)\.profile-name\s*\{[^}]*font-size\s*:\s*1\.15rem' "The profile name must be only slightly larger than the affiliation."
+Assert-Matches $Stylesheet '(?s)\.profile-avatar\s*\{[^}]*width\s*:\s*150px[^}]*height\s*:\s*120px' "The profile avatar must use the restored oval proportion."
+Assert-Matches $Stylesheet '(?s)\.site-footer\s*\{[^}]*text-align\s*:\s*center' "The footer must be centered within the main content column."
 Assert-Matches $Stylesheet '(?s)\.page-main h3\s*\{[^}]*font-size\s*:\s*1rem' "Service groups must have a consistent tertiary heading style."
 Assert-NotMatches $PatentsInclude '<autocolor>|style=' "Patents must not retain legacy inline styling."
 Assert-NotMatches $AwardsInclude '<autocolor>|style=' "Awards must not retain legacy inline styling."
