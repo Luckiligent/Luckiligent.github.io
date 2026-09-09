@@ -39,4 +39,20 @@ if ($AlbumContent -notmatch "cover: /assets/img/life/jiuzhaigou-2026-08/02-turqu
   throw "The album cover must reference an image in the album."
 }
 
+$LifePage = Join-Path $RepositoryRoot "life.md"
+$LifePageContent = Get-Content -LiteralPath $LifePage -Raw
+foreach ($Marker in @("life-timeline", "life-timeline-date", "life-photo-strip", "life-photo")) {
+  if ($LifePageContent -notmatch [regex]::Escape($Marker)) {
+    throw "Life page is missing the $Marker layout hook."
+  }
+}
+
+$Stylesheet = Join-Path $RepositoryRoot "_sass/_academic-homepage.scss"
+$StylesheetContent = Get-Content -LiteralPath $Stylesheet -Raw
+foreach ($Pattern in @("\.life-timeline\s*\{", "\.life-photo-strip\s*\{", "overflow-x\s*:\s*auto", "\.life-dialog img\s*\{[^}]*width\s*:\s*min\(820px, 84vw\)", "object-fit\s*:\s*contain", "\.life-dialog button\s*\{[^}]*border-radius")) {
+  if (-not [regex]::IsMatch($StylesheetContent, $Pattern, [System.Text.RegularExpressions.RegexOptions]::Singleline)) {
+    throw "Life stylesheet is missing expected rule: $Pattern"
+  }
+}
+
 Write-Output "Jiuzhaigou life album checks passed."

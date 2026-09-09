@@ -256,45 +256,85 @@ body {
   text-align: center;
 }
 
-.life-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 16px;
+.life-timeline {
+  position: relative;
+  margin: 10px 0 0;
+  padding: 8px 0 8px 132px;
 }
 
-.life-album {
-  background: #fff;
-  border: 1px solid #dfe5ea;
+.life-timeline::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 92px;
+  width: 2px;
+  background: #d7e3eb;
+  content: "";
+}
+
+.life-timeline-entry {
+  position: relative;
+  margin: 0 0 34px;
+}
+
+.life-timeline-entry:last-child { margin-bottom: 0; }
+
+.life-timeline-date {
+  position: absolute;
+  top: 2px;
+  right: calc(100% + 28px);
+  width: 104px;
+  color: #245f8e;
+  text-align: right;
+}
+
+.life-timeline-date::after {
+  position: absolute;
+  top: 4px;
+  right: -37px;
+  width: 11px;
+  height: 11px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #3c86b7;
+  box-shadow: 0 0 0 1px #9fc4da;
+  content: "";
+}
+
+.life-timeline-date time,
+.life-timeline-date span { display: block; }
+.life-timeline-date time { font-size: 0.9rem; font-weight: 700; }
+.life-timeline-date span { margin-top: 3px; color: #71808d; font-size: 0.74rem; line-height: 1.35; }
+
+.life-album-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 11px; }
+.life-album-heading h2 { margin: 0; color: #26313d; font-size: 1.08rem; }
+.life-album-heading span { color: #71808d; font-size: 0.78rem; white-space: nowrap; }
+
+.life-photo-strip {
+  display: flex;
+  gap: 12px;
+  overflow-x: auto;
+  padding: 2px 2px 12px;
+  scroll-snap-type: x proximity;
+  scrollbar-color: #abc6d8 transparent;
+}
+
+.life-photo {
+  flex: 0 0 190px;
+  height: 168px;
   padding: 0;
-  text-align: left;
-  cursor: pointer;
   overflow: hidden;
+  border: 1px solid #d4e0e8;
+  border-radius: 8px;
+  background: #edf3f6;
+  cursor: pointer;
+  scroll-snap-align: start;
+  transition: transform 160ms ease, box-shadow 160ms ease;
 }
 
-.life-album img {
-  width: 100%;
-  height: 150px;
-  object-fit: cover;
-  display: block;
-}
-
-.life-album-copy {
-  display: block;
-  padding: 13px;
-}
-
-.life-album-title {
-  display: block;
-  color: #26313d;
-  font-weight: 650;
-}
-
-.life-album-meta {
-  display: block;
-  color: #71808d;
-  font-size: 0.78rem;
-  margin-top: 4px;
-}
+.life-photo:hover,
+.life-photo:focus-visible { transform: translateY(-2px); box-shadow: 0 7px 18px rgba(36, 95, 142, 0.16); }
+.life-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
 
 .life-empty {
   color: #71808d;
@@ -306,6 +346,7 @@ body {
 .life-dialog {
   border: 0;
   border-radius: 6px;
+  width: min(900px, 92vw);
   max-width: min(900px, 92vw);
   padding: 18px;
   box-shadow: 0 16px 48px rgba(20, 34, 46, 0.28);
@@ -317,26 +358,35 @@ body {
 
 .life-dialog img {
   display: block;
-  max-width: min(820px, 84vw);
-  max-height: 70vh;
+  width: min(820px, 84vw);
+  height: min(66vh, 620px);
+  object-fit: contain;
+  border-radius: 4px;
+  background: #f2f5f7;
   margin: 0 auto;
 }
 
 .life-dialog-controls {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 12px;
   margin-top: 12px;
 }
 
 .life-dialog button {
   border: 1px solid #b9c8d4;
+  border-radius: 999px;
   background: #fff;
   color: #245f8e;
-  padding: 7px 11px;
+  padding: 7px 14px;
+  font-size: 0.8rem;
   cursor: pointer;
 }
+
+.life-dialog button:hover,
+.life-dialog button:focus-visible { border-color: #6f9fbc; background: #edf5f9; }
+.life-dialog button:disabled { opacity: 0.45; cursor: default; }
 
 @media (max-width: 760px) {
   .site-shell {
@@ -366,6 +416,15 @@ body {
     grid-template-columns: 100px minmax(0, 1fr);
     gap: 12px;
   }
+
+  .life-timeline { padding-left: 28px; }
+  .life-timeline::before { left: 7px; }
+  .life-timeline-date { position: relative; top: auto; right: auto; width: auto; margin: 0 0 8px; padding-left: 18px; text-align: left; }
+  .life-timeline-date::after { top: 3px; right: auto; left: -26px; }
+  .life-photo { flex-basis: 172px; height: 150px; }
+  .life-dialog { padding: 12px; }
+  .life-dialog img { width: 100%; height: min(64vh, 520px); }
+  .life-dialog-controls { flex-wrap: wrap; gap: 8px; }
 }
 
 @media (max-width: 480px) {

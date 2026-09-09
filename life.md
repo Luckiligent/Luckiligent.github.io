@@ -5,12 +5,28 @@ permalink: /life/
 ---
 
 {% if site.data.life.albums and site.data.life.albums.size > 0 %}
-<div class="life-grid">
-  {% for album in site.data.life.albums %}
-  <button class="life-album" type="button" data-life-album='{{ album.images | jsonify | escape }}' data-life-title="{{ album.title | escape }}">
-    <img src="{{ album.cover | relative_url }}" alt="{{ album.title | escape }}">
-    <span class="life-album-copy"><span class="life-album-title">{{ album.title }}</span><span class="life-album-meta">{{ album.date }}{% if album.location %} · {{ album.location }}{% endif %} · {{ album.images.size }} photos</span></span>
-  </button>
+{% assign sorted_albums = site.data.life.albums | sort: "date" | reverse %}
+<div class="life-timeline">
+  {% for album in sorted_albums %}
+  <article class="life-timeline-entry">
+    <div class="life-timeline-date">
+      <time datetime="{{ album.date | date: '%Y-%m' }}">{{ album.date }}</time>
+      {% if album.location %}<span>{{ album.location }}</span>{% endif %}
+    </div>
+    <div class="life-timeline-content">
+      <header class="life-album-heading">
+        <h2>{{ album.title }}</h2>
+        <span>{{ album.images.size }} photos</span>
+      </header>
+      <div class="life-photo-strip" role="list" aria-label="Photos from {{ album.title | escape }}">
+        {% for image in album.images %}
+        <button class="life-photo" type="button" role="listitem" data-life-album='{{ album.images | jsonify | escape }}' data-life-title="{{ album.title | escape }}" data-life-index="{{ forloop.index0 }}">
+          <img src="{{ image.src | relative_url }}" alt="{{ image.alt | default: album.title | escape }}" loading="lazy">
+        </button>
+        {% endfor %}
+      </div>
+    </div>
+  </article>
   {% endfor %}
 </div>
 {% else %}
