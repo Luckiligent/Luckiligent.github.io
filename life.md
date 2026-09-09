@@ -5,7 +5,7 @@ permalink: /life/
 ---
 
 {% if site.data.life.albums and site.data.life.albums.size > 0 %}
-{% assign sorted_albums = site.data.life.albums | sort: "date" | reverse %}
+{% assign sorted_albums = site.data.life.albums | sort: "sort_date" | reverse %}
 <div class="life-timeline">
   {% for album in sorted_albums %}
   <article class="life-timeline-entry">

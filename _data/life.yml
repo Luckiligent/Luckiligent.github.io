@@ -1,6 +1,7 @@
 albums:
   - slug: guizhou-2026-04
     title: Guizhou
+    sort_date: 2026-04-01
     date: April 2026
     location: Guizhou
     cover: /assets/img/life/guizhou-2026-04/01-mountain-waterfall.png
@@ -23,6 +24,7 @@ albums:
         alt: Waterfall cascade under a blue sky
   - slug: jiuzhaigou-2026-08
     title: Jiuzhaigou
+    sort_date: 2026-08-01
     date: August 2026
     location: Jiuzhaigou, Sichuan
     cover: /assets/img/life/jiuzhaigou-2026-08/02-turquoise-lake-branch.png

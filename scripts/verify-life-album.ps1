@@ -19,6 +19,9 @@ $ExpectedImages = @(
 if ($AlbumContent -notmatch "title: Jiuzhaigou") {
   throw "The Jiuzhaigou album is missing."
 }
+if ($AlbumContent -notmatch "sort_date: 2026-08-01") {
+  throw "The Jiuzhaigou album needs an ISO sorting date."
+}
 
 if ($AlbumContent -notmatch "date: August 2026") {
   throw "The Jiuzhaigou album date is missing."
@@ -50,6 +53,7 @@ $GuizhouImages = @(
   "08-waterfall-cascade.png"
 )
 if ($AlbumContent -notmatch "title: Guizhou") { throw "The Guizhou album is missing." }
+if ($AlbumContent -notmatch "sort_date: 2026-04-01") { throw "The Guizhou album needs an ISO sorting date." }
 if ($AlbumContent -notmatch "date: April 2026") { throw "The Guizhou album date is missing." }
 if ($AlbumContent -notmatch "location: Guizhou") { throw "The Guizhou album location is missing." }
 foreach ($ImageName in $GuizhouImages) {
@@ -67,6 +71,9 @@ foreach ($Marker in @("life-timeline", "life-timeline-date", "life-photo-strip",
   if ($LifePageContent -notmatch [regex]::Escape($Marker)) {
     throw "Life page is missing the $Marker layout hook."
   }
+}
+if ($LifePageContent -notmatch 'sort: "sort_date"') {
+  throw "Life albums must be ordered by their ISO sorting date."
 }
 if ($LifePageContent -match "life-album-heading|images\.size}} photos|images\.size }} photos") {
   throw "Life page must not visibly repeat album names or photo counts."
