@@ -266,7 +266,7 @@ body {
   position: absolute;
   top: 0;
   bottom: 0;
-  left: 92px;
+  left: 104px;
   width: 2px;
   background: #d7e3eb;
   content: "";
@@ -277,38 +277,36 @@ body {
   margin: 0 0 34px;
 }
 
+.life-timeline-entry::before {
+  position: absolute;
+  top: 3px;
+  left: -36px;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+  background: #3c86b7;
+  box-shadow: 0 0 0 1px #9fc4da, 0 3px 9px rgba(36, 95, 142, 0.2);
+  content: "";
+  z-index: 1;
+}
+
 .life-timeline-entry:last-child { margin-bottom: 0; }
 
 .life-timeline-date {
   position: absolute;
   top: 2px;
-  right: calc(100% + 28px);
+  left: -132px;
   width: 104px;
   color: #245f8e;
   text-align: right;
-}
-
-.life-timeline-date::after {
-  position: absolute;
-  top: 4px;
-  right: -37px;
-  width: 11px;
-  height: 11px;
-  border: 3px solid #fff;
-  border-radius: 50%;
-  background: #3c86b7;
-  box-shadow: 0 0 0 1px #9fc4da;
-  content: "";
 }
 
 .life-timeline-date time,
 .life-timeline-date span { display: block; }
 .life-timeline-date time { font-size: 0.9rem; font-weight: 700; }
 .life-timeline-date span { margin-top: 3px; color: #71808d; font-size: 0.74rem; line-height: 1.35; }
-
-.life-album-heading { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 11px; }
-.life-album-heading h2 { margin: 0; color: #26313d; font-size: 1.08rem; }
-.life-album-heading span { color: #71808d; font-size: 0.78rem; white-space: nowrap; }
 
 .life-photo-strip {
   display: flex;
@@ -370,23 +368,35 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 12px;
+  gap: 10px;
   margin-top: 12px;
 }
 
 .life-dialog button {
-  border: 1px solid #b9c8d4;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 38px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 999px;
-  background: #fff;
-  color: #245f8e;
-  padding: 7px 14px;
-  font-size: 0.8rem;
+  background: linear-gradient(135deg, #eef7fb, #d6eaf4);
+  color: #164b70;
+  padding: 8px 15px;
+  font-size: 0.79rem;
+  font-weight: 650;
   cursor: pointer;
+  box-shadow: 0 4px 12px rgba(36, 95, 142, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.7);
+  transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
 }
 
 .life-dialog button:hover,
-.life-dialog button:focus-visible { border-color: #6f9fbc; background: #edf5f9; }
+.life-dialog button:focus-visible,
+.life-dialog button:hover { border-color: #fff; filter: saturate(1.1) brightness(1.03); transform: translateY(-2px); box-shadow: 0 7px 18px rgba(36, 95, 142, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.8); }
 .life-dialog button:disabled { opacity: 0.45; cursor: default; }
+.life-dialog button span:first-child { font-size: 1.1rem; line-height: 0.8; }
+.life-dialog-close { background: linear-gradient(135deg, #2f779f, #245276) !important; color: #fff !important; }
+#life-gallery-count { min-width: 48px; color: #61798a; font-size: 0.78rem; text-align: center; }
 
 @media (max-width: 760px) {
   .site-shell {
@@ -419,8 +429,8 @@ body {
 
   .life-timeline { padding-left: 28px; }
   .life-timeline::before { left: 7px; }
-  .life-timeline-date { position: relative; top: auto; right: auto; width: auto; margin: 0 0 8px; padding-left: 18px; text-align: left; }
-  .life-timeline-date::after { top: 3px; right: auto; left: -26px; }
+  .life-timeline-entry::before { left: -29px; }
+  .life-timeline-date { position: relative; top: auto; left: auto; width: auto; margin: 0 0 8px; padding-left: 18px; text-align: left; }
   .life-photo { flex-basis: 172px; height: 150px; }
   .life-dialog { padding: 12px; }
   .life-dialog img { width: 100%; height: min(64vh, 520px); }
