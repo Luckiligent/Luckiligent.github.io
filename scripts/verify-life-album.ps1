@@ -52,7 +52,7 @@ if ($LifePageContent -match "life-album-heading|images\.size}} photos|images\.si
 
 $Stylesheet = Join-Path $RepositoryRoot "_sass/_academic-homepage.scss"
 $StylesheetContent = Get-Content -LiteralPath $Stylesheet -Raw
-foreach ($Pattern in @("\.life-timeline\s*\{", "\.life-photo-strip\s*\{", "overflow-x\s*:\s*auto", "\.life-dialog img\s*\{[^}]*width\s*:\s*min\(820px, 84vw\)", "object-fit\s*:\s*contain", "\.life-dialog button\s*\{[^}]*border-radius", "\.life-timeline::before\s*\{[^}]*left\s*:\s*104px", "\.life-timeline-entry::before\s*\{[^}]*left\s*:\s*-36px", "linear-gradient")) {
+foreach ($Pattern in @("\.life-timeline\s*\{", "\.life-photo-strip\s*\{", "overflow-x\s*:\s*auto", "\.life-dialog img\s*\{[^}]*width\s*:\s*min\(820px, 84vw\)", "object-fit\s*:\s*contain", "\.life-dialog button\s*\{[^}]*border-radius", "\.life-timeline::before\s*\{[^}]*left\s*:\s*104px", "\.life-timeline-entry::before\s*\{[^}]*left\s*:\s*-36px", "\.life-timeline-date\s*\{[^}]*left\s*:\s*-160px[^}]*width\s*:\s*120px", "font-family\s*:\s*inherit", "line-height\s*:\s*1\.2", "linear-gradient")) {
   if (-not [regex]::IsMatch($StylesheetContent, $Pattern, [System.Text.RegularExpressions.RegexOptions]::Singleline)) {
     throw "Life stylesheet is missing expected rule: $Pattern"
   }

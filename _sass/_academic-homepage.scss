@@ -297,8 +297,8 @@ body {
 .life-timeline-date {
   position: absolute;
   top: 2px;
-  left: -132px;
-  width: 104px;
+  left: -160px;
+  width: 120px;
   color: #245f8e;
   text-align: right;
 }
@@ -383,8 +383,11 @@ body {
   background: linear-gradient(135deg, #eef7fb, #d6eaf4);
   color: #164b70;
   padding: 8px 15px;
+  font-family: inherit;
   font-size: 0.79rem;
   font-weight: 650;
+  line-height: 1.2;
+  letter-spacing: 0;
   cursor: pointer;
   box-shadow: 0 4px 12px rgba(36, 95, 142, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.7);
   transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
@@ -394,7 +397,8 @@ body {
 .life-dialog button:focus-visible,
 .life-dialog button:hover { border-color: #fff; filter: saturate(1.1) brightness(1.03); transform: translateY(-2px); box-shadow: 0 7px 18px rgba(36, 95, 142, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.8); }
 .life-dialog button:disabled { opacity: 0.45; cursor: default; }
-.life-dialog button span:first-child { font-size: 1.1rem; line-height: 0.8; }
+.life-dialog button span { font: inherit; line-height: inherit; }
+.life-dialog button span[aria-hidden="true"] { font-size: 1.15rem; font-weight: 500; line-height: 0.8; }
 .life-dialog-close { background: linear-gradient(135deg, #2f779f, #245276) !important; color: #fff !important; }
 #life-gallery-count { min-width: 48px; color: #61798a; font-size: 0.78rem; text-align: center; }
 
