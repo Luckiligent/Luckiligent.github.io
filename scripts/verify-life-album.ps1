@@ -16,8 +16,8 @@ $ExpectedImages = @(
   "11-lakeside-forest.jpg"
 )
 
-if ($AlbumContent -notmatch "title: Jiuzhaigou") {
-  throw "The Jiuzhaigou album is missing."
+if ($AlbumContent -notmatch "title: Blue in the Keeping of Mountains") {
+  throw "The Jiuzhaigou gallery title is missing."
 }
 if ($AlbumContent -notmatch "sort_date: 2026-08-01") {
   throw "The Jiuzhaigou album needs an ISO sorting date."
@@ -52,7 +52,7 @@ $GuizhouImages = @(
   "07-tiered-waterfall.png",
   "08-waterfall-cascade.png"
 )
-if ($AlbumContent -notmatch "title: Guizhou") { throw "The Guizhou album is missing." }
+if ($AlbumContent -notmatch "title: Songs of Water and Stone") { throw "The Guizhou gallery title is missing." }
 if ($AlbumContent -notmatch "sort_date: 2026-04-01") { throw "The Guizhou album needs an ISO sorting date." }
 if ($AlbumContent -notmatch "date: April 2026") { throw "The Guizhou album date is missing." }
 if ($AlbumContent -notmatch "location: Guizhou") { throw "The Guizhou album location is missing." }
@@ -78,10 +78,15 @@ if ($LifePageContent -notmatch 'sort: "sort_date"') {
 if ($LifePageContent -match "life-album-heading|images\.size}} photos|images\.size }} photos") {
   throw "Life page must not visibly repeat album names or photo counts."
 }
+foreach ($Marker in @("life-dialog-navigation", "life-dialog-close")) {
+  if ($LifePageContent -notmatch [regex]::Escape($Marker)) {
+    throw "Life page is missing the $Marker dialog layout hook."
+  }
+}
 
 $Stylesheet = Join-Path $RepositoryRoot "_sass/_academic-homepage.scss"
 $StylesheetContent = Get-Content -LiteralPath $Stylesheet -Raw
-foreach ($Pattern in @("\.life-timeline\s*\{", "\.life-photo-strip\s*\{", "overflow-x\s*:\s*auto", "\.life-dialog img\s*\{[^}]*width\s*:\s*min\(820px, 84vw\)", "object-fit\s*:\s*contain", "\.life-dialog button\s*\{[^}]*border-radius", "\.life-timeline::before\s*\{[^}]*left\s*:\s*104px", "\.life-timeline-entry::before\s*\{[^}]*left\s*:\s*-36px", "\.life-timeline-date\s*\{[^}]*left\s*:\s*-160px[^}]*width\s*:\s*120px", "font-family\s*:\s*inherit", "line-height\s*:\s*1\.2", "linear-gradient")) {
+foreach ($Pattern in @("\.life-timeline\s*\{", "\.life-photo-strip\s*\{", "overflow-x\s*:\s*auto", "\.life-dialog img\s*\{[^}]*width\s*:\s*min\(820px, 84vw\)", "object-fit\s*:\s*contain", "\.life-dialog button\s*\{[^}]*border-radius", "\.life-timeline::before\s*\{[^}]*left\s*:\s*104px", "\.life-timeline-entry::before\s*\{[^}]*left\s*:\s*-36px", "\.life-timeline-date\s*\{[^}]*left\s*:\s*-160px[^}]*width\s*:\s*120px", "\.life-gallery-title\s*\{[^}]*text-align\s*:\s*center", "\.life-dialog-controls\s*\{[^}]*grid-template-columns\s*:\s*1fr\s+auto\s+1fr", "\.life-dialog-close\s*\{[^}]*justify-self\s*:\s*end", "font-family\s*:\s*inherit", "line-height\s*:\s*1\.2", "linear-gradient")) {
   if (-not [regex]::IsMatch($StylesheetContent, $Pattern, [System.Text.RegularExpressions.RegexOptions]::Singleline)) {
     throw "Life stylesheet is missing expected rule: $Pattern"
   }

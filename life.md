@@ -31,6 +31,6 @@ permalink: /life/
 
 <dialog id="life-gallery-dialog" class="life-dialog" aria-labelledby="life-gallery-title">
   <img id="life-gallery-image" src="" alt="">
-  <p id="life-gallery-title"></p>
-  <div class="life-dialog-controls"><button class="life-dialog-nav" type="button" data-life-previous aria-label="Previous photo"><span aria-hidden="true">←</span><span>Previous</span></button><span id="life-gallery-count" aria-live="polite"></span><button class="life-dialog-nav" type="button" data-life-next aria-label="Next photo"><span>Next</span><span aria-hidden="true">→</span></button><button class="life-dialog-close" type="button" data-life-close aria-label="Close gallery"><span aria-hidden="true">×</span><span>Close</span></button></div>
+  <p id="life-gallery-title" class="life-gallery-title"></p>
+  <div class="life-dialog-controls"><div class="life-dialog-navigation"><button class="life-dialog-nav" type="button" data-life-previous aria-label="Previous photo"><span aria-hidden="true">←</span><span>Previous</span></button><span id="life-gallery-count" aria-live="polite"></span><button class="life-dialog-nav" type="button" data-life-next aria-label="Next photo"><span>Next</span><span aria-hidden="true">→</span></button></div><button class="life-dialog-close" type="button" data-life-close aria-label="Close gallery"><span aria-hidden="true">×</span><span>Close</span></button></div>
 </dialog>

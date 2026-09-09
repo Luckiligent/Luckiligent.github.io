@@ -1,6 +1,6 @@
 albums:
   - slug: guizhou-2026-04
-    title: Guizhou
+    title: Songs of Water and Stone
     sort_date: 2026-04-01
     date: April 2026
     location: Guizhou
@@ -23,7 +23,7 @@ albums:
       - src: /assets/img/life/guizhou-2026-04/08-waterfall-cascade.png
         alt: Waterfall cascade under a blue sky
   - slug: jiuzhaigou-2026-08
-    title: Jiuzhaigou
+    title: Blue in the Keeping of Mountains
     sort_date: 2026-08-01
     date: August 2026
     location: Jiuzhaigou, Sichuan

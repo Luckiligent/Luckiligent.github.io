@@ -364,12 +364,29 @@ body {
   margin: 0 auto;
 }
 
+.life-gallery-title {
+  margin: 14px 0 0;
+  color: #234d69;
+  font-size: 1.02rem;
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 0.025em;
+  line-height: 1.35;
+  text-align: center;
+}
+
 .life-dialog-controls {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.life-dialog-navigation {
+  grid-column: 2;
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 10px;
-  margin-top: 12px;
 }
 
 .life-dialog button {
@@ -399,7 +416,7 @@ body {
 .life-dialog button:disabled { opacity: 0.45; cursor: default; }
 .life-dialog button span { font: inherit; line-height: inherit; }
 .life-dialog button span[aria-hidden="true"] { font-size: 1.15rem; font-weight: 500; line-height: 0.8; }
-.life-dialog-close { background: linear-gradient(135deg, #2f779f, #245276) !important; color: #fff !important; }
+.life-dialog-close { grid-column: 3; justify-self: end; background: linear-gradient(135deg, #2f779f, #245276) !important; color: #fff !important; }
 #life-gallery-count { min-width: 48px; color: #61798a; font-size: 0.78rem; text-align: center; }
 
 @media (max-width: 760px) {
@@ -438,7 +455,8 @@ body {
   .life-photo { flex-basis: 172px; height: 150px; }
   .life-dialog { padding: 12px; }
   .life-dialog img { width: 100%; height: min(64vh, 520px); }
-  .life-dialog-controls { flex-wrap: wrap; gap: 8px; }
+  .life-dialog-controls { grid-template-columns: 1fr auto 1fr; }
+  .life-dialog-navigation { gap: 6px; }
 }
 
 @media (max-width: 480px) {
