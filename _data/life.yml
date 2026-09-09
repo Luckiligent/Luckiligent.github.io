@@ -1,4 +1,26 @@
 albums:
+  - slug: guizhou-2026-04
+    title: Guizhou
+    date: April 2026
+    location: Guizhou
+    cover: /assets/img/life/guizhou-2026-04/01-mountain-waterfall.png
+    images:
+      - src: /assets/img/life/guizhou-2026-04/01-mountain-waterfall.png
+        alt: Mountain waterfall in Guizhou
+      - src: /assets/img/life/guizhou-2026-04/02-riverside-fisher.png
+        alt: Fisher on a quiet river in Guizhou
+      - src: /assets/img/life/guizhou-2026-04/03-miao-village.png
+        alt: Miao village among misty mountains
+      - src: /assets/img/life/guizhou-2026-04/04-tall-waterfall.png
+        alt: Tall waterfall in a forested valley
+      - src: /assets/img/life/guizhou-2026-04/05-stone-bridge.png
+        alt: Stone bridge over clear water
+      - src: /assets/img/life/guizhou-2026-04/06-tea-hills.png
+        alt: Green tea hills in Guizhou
+      - src: /assets/img/life/guizhou-2026-04/07-tiered-waterfall.png
+        alt: Tiered waterfall and mossy rocks
+      - src: /assets/img/life/guizhou-2026-04/08-waterfall-cascade.png
+        alt: Waterfall cascade under a blue sky
   - slug: jiuzhaigou-2026-08
     title: Jiuzhaigou
     date: August 2026

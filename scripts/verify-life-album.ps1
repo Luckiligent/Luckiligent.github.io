@@ -39,6 +39,28 @@ if ($AlbumContent -notmatch "cover: /assets/img/life/jiuzhaigou-2026-08/02-turqu
   throw "The album cover must reference an image in the album."
 }
 
+$GuizhouImages = @(
+  "01-mountain-waterfall.png",
+  "02-riverside-fisher.png",
+  "03-miao-village.png",
+  "04-tall-waterfall.png",
+  "05-stone-bridge.png",
+  "06-tea-hills.png",
+  "07-tiered-waterfall.png",
+  "08-waterfall-cascade.png"
+)
+if ($AlbumContent -notmatch "title: Guizhou") { throw "The Guizhou album is missing." }
+if ($AlbumContent -notmatch "date: April 2026") { throw "The Guizhou album date is missing." }
+if ($AlbumContent -notmatch "location: Guizhou") { throw "The Guizhou album location is missing." }
+foreach ($ImageName in $GuizhouImages) {
+  if ($AlbumContent -notmatch [regex]::Escape($ImageName)) { throw "The Guizhou album does not reference $ImageName." }
+  $ImagePath = Join-Path $RepositoryRoot ("assets/img/life/guizhou-2026-04/" + $ImageName)
+  if (-not (Test-Path -LiteralPath $ImagePath -PathType Leaf)) { throw "Missing Guizhou image: $ImagePath" }
+}
+if ($AlbumContent -notmatch "cover: /assets/img/life/guizhou-2026-04/01-mountain-waterfall.png") {
+  throw "The Guizhou album cover must reference an image in the album."
+}
+
 $LifePage = Join-Path $RepositoryRoot "life.md"
 $LifePageContent = Get-Content -LiteralPath $LifePage -Raw
 foreach ($Marker in @("life-timeline", "life-timeline-date", "life-photo-strip", "life-photo")) {
