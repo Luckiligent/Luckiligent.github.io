@@ -1,1 +1,29 @@
-albums: []
+albums:
+  - slug: jiuzhaigou-2026-08
+    title: Jiuzhaigou
+    date: August 2026
+    location: Jiuzhaigou, Sichuan
+    cover: /assets/img/life/jiuzhaigou-2026-08/02-turquoise-lake-branch.png
+    images:
+      - src: /assets/img/life/jiuzhaigou-2026-08/01-forest-path.png
+        alt: Forest path in Jiuzhaigou
+      - src: /assets/img/life/jiuzhaigou-2026-08/02-turquoise-lake-branch.png
+        alt: Turquoise lake and a branch in Jiuzhaigou
+      - src: /assets/img/life/jiuzhaigou-2026-08/03-submerged-log.png
+        alt: Submerged log in a clear lake
+      - src: /assets/img/life/jiuzhaigou-2026-08/04-emerald-shore.jpg
+        alt: Emerald shore in Jiuzhaigou
+      - src: /assets/img/life/jiuzhaigou-2026-08/05-mountain-lake.jpg
+        alt: Mountain lake in Jiuzhaigou
+      - src: /assets/img/life/jiuzhaigou-2026-08/06-lake-through-leaves.jpg
+        alt: Lake seen through leaves
+      - src: /assets/img/life/jiuzhaigou-2026-08/07-mountain-reflection.jpg
+        alt: Mountain reflection on the water
+      - src: /assets/img/life/jiuzhaigou-2026-08/08-valley-lake.jpg
+        alt: Valley lake in Jiuzhaigou
+      - src: /assets/img/life/jiuzhaigou-2026-08/09-mountain-and-lake.jpg
+        alt: Mountain and lake scenery
+      - src: /assets/img/life/jiuzhaigou-2026-08/10-alpine-valley.jpg
+        alt: Alpine valley in Jiuzhaigou
+      - src: /assets/img/life/jiuzhaigou-2026-08/11-lakeside-forest.jpg
+        alt: Forest beside a lake
