@@ -12,7 +12,7 @@ main:
     image: ./assets/img/Discrete_token.png
 
   - title: "Towards Calibrated Gradient-based Multi-Task Learning"
-    authors: <strong>Linxiao Cao*</strong>, Mianzimei Yang*, Zhipeng Zhou#, Hong Xie, Defu Lian, Menglin Yang#. 
+    authors: <strong>Linxiao Cao</strong>, Mianzimei Yang, Zhipeng Zhou#, Hong Xie, Defu Lian, Menglin Yang#. 
     conference_short: CVPR
     conference: <strong>Findings of The IEEE/CVF Conference on Computer Vision and Pattern Recognition</strong>, 2026.
     pdf: https://openaccess.thecvf.com/content/CVPR2026F/papers/Cao_Towards_Calibrated_Gradient-based_Multi-Task_Learning_CVPRF_2026_paper.pdf
