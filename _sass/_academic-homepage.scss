@@ -187,16 +187,19 @@ body {
 
 .page-main .publications ol.bibliography li .abbr abbr {
   position: absolute;
-  top: 0;
-  left: 0;
   height: auto;
-  padding: 0 7px;
+  padding: 0 7px 0 0;
   border: 0;
   color: #fff;
   background: #245f8e;
   text-align: left;
   font-size: 0.68rem;
   line-height: 1.55;
+}
+
+.page-main > .page-title + .publications ol.bibliography li .abbr abbr {
+  top: 0;
+  left: 0;
 }
 
 .page-main .teaser {
