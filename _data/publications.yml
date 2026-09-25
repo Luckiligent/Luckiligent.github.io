@@ -11,6 +11,7 @@ main:
     authors: <strong>Linxiao Cao</strong>, Zhipeng Zhou, Xutao Huang, Min Zhou, Menglin Yang#
     conference_short: NeurIPS
     conference: <strong>Advances in Neural Information Processing Systems</strong>, 2026.
+    pdf: 
     image: ./assets/img/Curvature_Guided_Init.png
 
   - title: "Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey"
