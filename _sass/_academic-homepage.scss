@@ -187,6 +187,8 @@ body {
 
 .page-main .publications ol.bibliography li .abbr abbr {
   position: absolute;
+  top: 5px;
+  left: 20px;
   height: auto;
   padding: 0 7px 0 0;
   border: 0;
@@ -198,8 +200,7 @@ body {
 }
 
 .page-main > .page-title + .publications ol.bibliography li .abbr abbr {
-  top: 0;
-  left: 0;
+  left: 5px;
 }
 
 .page-main .teaser {
