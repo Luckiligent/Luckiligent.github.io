@@ -38,7 +38,7 @@ main:
     
   - title: "HyperbolicRAG: Enhancing Retrieval-Augmented Generation with Hyperbolic Representations"
     authors: <strong>Linxiao Cao</strong>, Ruitao Wang, Jindong Li, Zhipeng Zhou, Menglin Yang#. 
-    conference_short: Arxiv
+    conference_short: arXiv
     conference: <strong>(Preprint)</strong>, 2025.
     pdf: ./assets/files/HyperbolicRAG.pdf
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
@@ -60,7 +60,7 @@ main:
 
   - title: "SFPrompt: Communication-Efficient Split Federated Fine-Tuning for Large Pre-Trained Models over Resource-Limited Devices"
     authors: <strong>Linxiao Cao</strong>, Yifei Zhu, Wei Gong#. 
-    conference_short: Arxiv
+    conference_short: arXiv
     conference: <strong>(Preprint)</strong>, 2024.
     pdf: https://arxiv.org/pdf/2407.17533
     # code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
