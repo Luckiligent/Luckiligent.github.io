@@ -4,6 +4,7 @@ main:
     authors: Zhipeng Zhou, <strong>Linxiao Cao</strong>, Yiming Cao, Pengcheng Wu, Peilin Zhao, Chunyan Miao#
     conference_short: NeurIPS
     conference: <strong>Advances in Neural Information Processing Systems</strong>, 2026.
+    pdf: https://arxiv.org/abs/2604.08939
     image: ./assets/img/Advanced_Optimizers.png
 
   - title: "Curvature-Guided Parameter Initialization for Multi-Task Learning"
