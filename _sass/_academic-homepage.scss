@@ -190,7 +190,8 @@ body {
   top: 5px;
   left: 20px;
   height: auto;
-  padding: 0 7px 0 0;
+  min-width: 54px;
+  padding: 0 7px 0 4px;
   border: 0;
   color: #fff;
   background: #245f8e;
@@ -200,8 +201,8 @@ body {
 }
 
 .page-main > .page-title + .publications ol.bibliography li .abbr abbr {
-  top: 10px;
-  left: 10px;
+  top: 5px;
+  left: 5px;
 }
 
 .page-main .teaser {
