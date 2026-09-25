@@ -1,5 +1,17 @@
 main:
 
+  - title: "Delve into the Applicability of Advanced Optimizers for Multi-Task Learning"
+    authors: <strong>Zhipeng Zhou</strong>, <strong>Linxiao Cao</strong>, <strong>Yiming Cao</strong>, <strong>Pengcheng Wu</strong>, <strong>Peilin Zhao</strong>, <strong>Chunyan Miao</strong>
+    conference_short: NeurIPS
+    conference: <strong>NeurIPS</strong>, 2026.
+    image: ./assets/img/Advanced_Optimizers.png
+
+  - title: "Curvature-Guided Parameter Initialization for Multi-Task Learning"
+    authors: <strong>Linxiao Cao</strong>, <strong>Zhipeng Zhou</strong>, <strong>Xutao Huang</strong>, <strong>Min Zhou</strong>, <strong>Menglin Yang</strong>
+    conference_short: NeurIPS
+    conference: <strong>NeurIPS</strong>, 2026.
+    image: ./assets/img/Curvature_Guided_Init.png
+
   - title: "Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey"
     authors: Jindong Li, Yali Fu, Jiahong Liu, <strong>Linxiao Cao</strong>, Wei Ji, Menglin Yang#, Irwin King, Ming-Hsuan Yang. 
     conference_short: TPAMI

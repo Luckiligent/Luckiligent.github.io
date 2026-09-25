@@ -14,6 +14,8 @@ I'm a Ph.D. student in the Artificial Intelligence Thrust at [The Hong Kong Univ
 - **Multi-Task Learning**
 
 ## News
+- **[Sep 2026]** Excited to share that **Delve into the Applicability of Advanced Optimizers for Multi-Task Learning** was accepted to *NeurIPS* 🎉!
+- **[Sep 2026]** Happy to announce that **Curvature-Guided Parameter Initialization for Multi-Task Learning** was accepted to *NeurIPS* 🎉!
 - **[Apr 2026]** Happy to share our new preprint **[APT: Delve into the Applicability of Advanced Optimizers for Multi-Task Learning](https://arxiv.org/abs/2604.08939)** on *arXiv*.
 - **[Mar 2026]** Delighted that **[Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey](https://arxiv.org/pdf/2507.22920)** was accepted to *TPAMI* 🎉!
 - **[Feb 2026]** Grateful that **[VarGrad](https://openaccess.thecvf.com/content/CVPR2026F/papers/Cao_Towards_Calibrated_Gradient-based_Multi-Task_Learning_CVPRF_2026_paper.pdf)** was accepted to *CVPR Findings 2026* 🎉🥳!

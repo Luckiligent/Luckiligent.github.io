@@ -10,7 +10,7 @@
         {% endif %}
       </div>
       <div>
-        <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+        <div class="title">{% if link.pdf %}<a href="{{ link.pdf }}">{{ link.title }}</a>{% else %}{{ link.title }}{% endif %}</div>
         <div class="author">{{ link.authors }}</div>
         <div class="periodical"><em>{{ link.conference }}</em></div>
         <div class="links">
