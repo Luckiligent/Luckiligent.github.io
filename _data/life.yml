@@ -1,4 +1,47 @@
 albums:
+  - slug: tonghua-2026-10
+    title: A Journey Through Tonghua
+    sort_date: 2026-10-01
+    date: October 2026
+    location: Tonghua, Jilin
+    cover: /assets/img/life/tonghua-2026-10/01-tonghua.png
+    images:
+      - src: /assets/img/life/tonghua-2026-10/01-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/02-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/03-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/04-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/05-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/06-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/07-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/08-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/09-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/10-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/11-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/12-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/13-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/14-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/15-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/16-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/17-tonghua.png
+        alt: Scenery in Tonghua
+      - src: /assets/img/life/tonghua-2026-10/18-tonghua.png
+        alt: Scenery in Tonghua
   - slug: guizhou-2026-04
     title: Songs of Water and Stone
     sort_date: 2026-04-01
