@@ -14,6 +14,7 @@ I'm a Ph.D. student in the Artificial Intelligence Thrust at [The Hong Kong Univ
 - **Multi-Task Learning**
 
 ## News
+- **[Nov 2026]** Happy to share our new preprint, **[From Hyperbolic to Mixed-Curvature Geometric Learning: A Comprehensive Survey](/assets/files/hyperbolic_survey.pdf)**, now available.
 - **[Sep 2026]** Excited that our two works, **[APT](https://arxiv.org/abs/2604.08939)** and **[CPI]()**, were accepted to *NeurIPS 2026* 🎉!
 - **[Apr 2026]** Happy to share our new preprint **[APT: Delve into the Applicability of Advanced Optimizers for Multi-Task Learning](https://arxiv.org/abs/2604.08939)** on *arXiv*.
 - **[Mar 2026]** Delighted that **[Discrete Tokenization for Multimodal LLMs: A Comprehensive Survey](https://arxiv.org/pdf/2507.22920)** was accepted to *TPAMI* 🎉!

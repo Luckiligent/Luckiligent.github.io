@@ -1,5 +1,12 @@
 main:
 
+  - title: "From Hyperbolic to Mixed-Curvature Geometric Learning: A Comprehensive Survey"
+    authors: Menglin Yang, Zihao Liu, Jiahong Liu, Jindong Li, <strong>Linxiao Cao</strong>, Buze Zhang, Irwin King
+    conference_short: Preprint
+    conference: <strong>(Preprint)</strong>, 2026.
+    pdf: /assets/files/hyperbolic_survey.pdf
+    image: ./assets/img/Hyperbolic.png
+
   - title: "Delve into the Applicability of Advanced Optimizers for Multi-Task Learning"
     authors: Zhipeng Zhou, <strong>Linxiao Cao</strong>, Yiming Cao, Pengcheng Wu, Peilin Zhao, Chunyan Miao#
     conference_short: NeurIPS
