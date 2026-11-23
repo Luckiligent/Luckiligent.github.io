@@ -6,7 +6,7 @@ permalink: /experience-service/
 
 ## Experience
 
-- **Research Intern**, Ant Group<br>
+- **Research Intern**, Ant Group, Shanghai<br>
   *Nov 2026 – Present*
 - **Remote Research Assistant**, University of Georgia, Athens, USA<br>
   *Sep 2024 – Jan 2025*
