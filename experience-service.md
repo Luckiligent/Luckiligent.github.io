@@ -6,6 +6,8 @@ permalink: /experience-service/
 
 ## Experience
 
+- **Research Intern**, Ant Group<br>
+  *Nov 2026 – Present*
 - **Remote Research Assistant**, University of Georgia, Athens, USA<br>
   *Sep 2024 – Jan 2025*
 - **Research Intern**, [iFLYTEK Healthcare](https://www.iflytek.com/health), Hefei, China<br>
